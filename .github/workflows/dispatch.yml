@@ -5,12 +5,8 @@ on:
     branches: [master]
 
 jobs:
-  dispatch:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger code repo build
-        uses: peter-evans/repository-dispatch@v3
-        with:
-          token: ${{ secrets.REPO_DISPATCH_TOKEN }}
-          repository: yujing0208/yujingblog
-          event-type: content-update
+      - name: Deploy to Vercel
+        run: curl -X POST https://api.vercel.com/v1/integrations/deploy/prj_BItOPjeta2kvX8ygeHX2WwujQaRQ/BB8gFEpFvk?branch=master

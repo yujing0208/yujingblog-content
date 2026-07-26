@@ -1,4 +1,4 @@
-// 日记数据配置
+﻿// 日记数据配置
 // 用于管理日记页面的数据
 // 内容分离：此文件由内容仓库同步管理
 
@@ -13,7 +13,16 @@ export interface DiaryItem {
 }
 
 // 日记数据
-const diaryData: DiaryItem[] = [];
+const diaryData: DiaryItem[] = [
+	{
+		id: 1,
+		content: "它老蹦的！这个博客写了好几天了。今天终于写到日记了，算鸟，当学MarkDown了。",
+		date: "2026-07-26",
+		images: ["/images/diary/配置日记.png"],
+		mood: "无语",
+		tags: ["博客"],
+	},
+];
 
 // 获取日记列表（按时间倒序）
 export const getDiaryList = (limit?: number) => {

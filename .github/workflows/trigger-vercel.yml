@@ -1,51 +1,15 @@
-# Repository Dispatch 触发器
-# 
-# 当内容仓库更新时,通过 Repository Dispatch 通知主仓库触发构建部署
-
-name: Trigger Site Build
+锘縩ame: Deploy
 
 on:
   push:
     branches:
       - master
-  workflow_dispatch:  # 支持手动触发
+  workflow_dispatch:
 
 jobs:
-  trigger:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Repository Dispatch to Main Repo
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-          REPO: yujing0208/yujingblog
+      - name: Trigger Vercel Deploy Hook
         run: |
-          if [ -z "$GH_PAT" ]; then
-            echo "::error::GH_PAT secret is not set. Please create a GitHub PAT with repo scope and add it as GH_PAT secret."
-            exit 1
-          fi
-          
-          response=$(curl -s -w "\n%{http_code}" -X POST \
-            -H "Authorization: token $GH_PAT" \
-            -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/$REPO/dispatches" \
-            -d '{"event_type":"content-update","client_payload":{"sha":"${{ github.sha }}","message":"${{ github.event.head_commit.message }}"}}')
-          
-          http_code=$(echo "$response" | tail -n1)
-          
-          if [ "$http_code" -eq 204 ]; then
-            echo "? Repository dispatch sent to $REPO"
-          else
-            echo "? Failed to send dispatch. HTTP code: $http_code"
-            exit 1
-          fi
-      
-      - name: Job summary
-        if: success()
-        run: |
-          echo "? Repository dispatch sent to yujing0208/yujingblog" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Commit Details:**" >> $GITHUB_STEP_SUMMARY
-          echo "- SHA: \`${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "- Message: ${{ github.event.head_commit.message }}" >> $GITHUB_STEP_SUMMARY
-          echo "- Author: ${{ github.event.head_commit.author.name }}" >> $GITHUB_STEP_SUMMARY
-          echo "- Main repo will build with content sync and deploy to Vercel" >> $GITHUB_STEP_SUMMARY
+          curl -s -X POST "https://api.vercel.com/v1/integrations/deploy/prj_BItOPjeta2kvX8ygeHX2WwujQaRQ/TTgWQJsUlL?branch=master"

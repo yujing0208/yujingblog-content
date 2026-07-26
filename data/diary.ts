@@ -18,7 +18,7 @@ const diaryData: DiaryItem[] = [
 		id: 1,
 		content: "它老蹦的！这个博客写了好几天了。今天终于写到日记了，算鸟，当学MarkDown了。",
 		date: "2026-07-26",
-		images: ["/images/diary/配置日记.png"],
+		images: ["https://bee-reg-ab.imagency.cn/p/0579b27512a43f6f5ecdfdd75d363f16.png"],
 		mood: "无语",
 		tags: ["博客"],
 	},

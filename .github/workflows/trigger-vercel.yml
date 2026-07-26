@@ -1,4 +1,4 @@
-﻿name: Trigger Vercel Deployment
+﻿name: Trigger Build
 
 on:
   push:
@@ -7,9 +7,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  trigger:
+  dispatch:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Vercel Deploy Hook
+      - name: Repository Dispatch
         run: |
-          curl -s -X POST "https://api.vercel.com/v1/integrations/deploy/prj_BItOPjeta2kvX8ygeHX2WwujQaRQ/TTgWQJsUlL"
+          curl -s -X POST "https://api.github.com/repos/yujing0208/yujingblog/dispatches" \
+            -H "Authorization: token ${{ secrets.DISPATCH_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            -d '{"event_type":"content-updated"}'

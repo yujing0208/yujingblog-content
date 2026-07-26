@@ -29,6 +29,14 @@ const friendsData: FriendItem[] = [
 		siteurl: "https://github.com",
 		tags: ["Development", "Platform"],
 	},
+		id: 3,
+		title: "合肥一中电脑社",
+		imgurl: "https://hfyzdns.cn/logo.png",
+		desc: "合肥一中历史最悠久的科技社团之一。
+零基础友好 · 技术驱动。从编程入门到 VR 开发，从游戏设计到 AI 实践，打造自由交流、学习、创造的平台。",
+		siteurl: "https://hfyzdns.cn/",
+		tags: ["社团"],
+	},
 ];
 
 export function getFriendsList(): FriendItem[] {

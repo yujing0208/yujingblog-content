@@ -8,12 +8,6 @@ on:
   push:
     branches:
       - master
-    paths:
-      # 只在内容文件变化时触发,避免不必要的构建
-      - 'posts/**'
-      - 'spec/**'
-      - 'data/**'
-      - 'images/**'
   workflow_dispatch:  # 支持手动触发
 
 jobs:

@@ -1,4 +1,4 @@
-// 友情链接数据配置
+﻿// 友情链接数据配置
 // 用于管理友情链接页面的数据
 
 import type { FriendItem } from "../types/friends";

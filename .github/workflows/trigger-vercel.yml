@@ -1,4 +1,4 @@
-﻿name: Deploy
+﻿name: Trigger Vercel Deployment
 
 on:
   push:
@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  trigger:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Vercel Deploy Hook
         run: |
-          curl -s -X POST "https://api.vercel.com/v1/integrations/deploy/prj_BItOPjeta2kvX8ygeHX2WwujQaRQ/TTgWQJsUlL?branch=master"
+          curl -s -X POST "https://api.vercel.com/v1/integrations/deploy/prj_BItOPjeta2kvX8ygeHX2WwujQaRQ/TTgWQJsUlL"

@@ -1,49 +1,37 @@
+﻿---
+title: "关于我"
+description: "YuJing 的个人介绍"
+---
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
-
-::github{repo="LyraVoid/Mizuki"}
-
-## 🌟 Theme Features
-
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
-
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
-
-
-
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
-
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
-
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
+<div class="flex flex-col items-center text-center py-6">
+  <img src="/favicon/avatar-icon.png" alt="YuJing" class="w-24 h-24 rounded-full shadow-lg mb-4" />
+  <h1 class="text-3xl font-bold">👋 你好，我是余京</h1>
+  <p class="text-lg text-gray-500 mt-2">一只还在成长的高中生</p>
+</div>
 
 ---
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+## 📋 基本信息
+
+| 项目 | 内容 |
+|------|------|
+| 🏫 **学校** | 合肥市第一中学瑶海校区 |
+| 📚 **年级** | 高二54班（原高一57班） |
+| 🔬 **选课** | 物理 · 化学 · 生物 |
+| 📍 **所在地** | 安徽 合肥 |
+| 🎂 **生日** | 2010年2月8日 |
+
+---
+
+## 🎓 教育经历
+
+1. **小学** — 北京市大成学校小学部
+2. **初中** — 合肥一六八玫瑰园学校南校
+3. **高中** — [合肥市第一中学瑶海校区](http://www.hfyz.net/sy/index.html)
+
+---
+
+> 💬 欢迎添加我的社交账号交流联系！
+
+::github{repo="LyraVoid/Mizuki"}
+

@@ -29,6 +29,7 @@ const friendsData: FriendItem[] = [
 		siteurl: "https://github.com",
 		tags: ["Development", "Platform"],
 	},
+		{
 		id: 3,
 		title: "合肥一中电脑社",
 		imgurl: "https://hfyzdns.cn/logo.png",

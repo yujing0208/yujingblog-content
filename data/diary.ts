@@ -30,6 +30,14 @@ const diaryData: DiaryItem[] = [
 		mood: "无语",
 		tags: ["日常"],
 	},
+	{
+		id: 3,
+		content: "我的token呀!/(ㄒoㄒ)/~~,这复刻个GitHub上的开源项目这么烧token,用了ClawX和CodeX,这个CodeX现在怎么放在Chat GTP里了，没有想象的好用（呃有可能是因为换了模型吧）总之白期待了，我的token啊，早知道不偷懒了，呜呜呜😒",
+		date: "2026-07-27T19:06:01+08:00",
+		images: ["https://bee-reg-ab.imagency.cn/p/a425b75dcb73d3b23eed6309a5f84ae1.png"],
+		mood: "心痛",
+		tags: ["博客"],
+	},
 	
 ];
 

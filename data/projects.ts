@@ -28,95 +28,43 @@ export const projectsData: Project[] = [
 		image: "/assets/projects/mizuki.webp",
 		category: "web",
 		techStack: ["Astro", "TypeScript", "Tailwind CSS", "Svelte"],
-		status: "completed",
+		status: "in-progress",
 		sourceCode: "https://github.com/LyraVoid/Mizuki",
 		visitUrl: "https://www.yujingblog.top/",
 		startDate: "2026-07-24",
-		endDate: "2026-07-26",
 		featured: true,
 		tags: ["博客", "Web", "Open Source"],
 	},
 	{
-		id: "",
-		title: "FolkPatch",
+		id: "iFlytek C8hPro刷机",
+		title: "iFlytek-C8hPro-Crack",
 		description:
-			"A kernel-level ROOT solution based on KernelPatch, with polished UI, APM module system, and KPM kernel module support.",
-		image: "/assets/projects/folkpatch.webp",
+			"关于iFlytek C8hPro平板刷机操作的一些研究很多地方尚有不足之处,在此抛砖引玉,欢迎各位读者开issues与我讨论。",
+		image: "https://tse3-mm.cn.bing.net/th/id/OIP-C.szj3ICJ2dNTj9msTH7OeygAAAA?w=217&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
 		category: "mobile",
-		techStack: ["Kotlin", "Rust", "C++", "Java"],
-		status: "in-progress",
-		sourceCode: "https://github.com/LyraVoid/FolkPatch",
-		visitUrl: "https://fp.mysqil.com",
-		startDate: "2024-03-01",
+		techStack: ["spd_dump", "紫光展锐", "FDL", "GSI"],
+		status: "completed",
+		sourceCode: "https://github.com/lucian0107/iFlytek-C8hPro-Crack",
+		startDate: "2026-05-28",
+		endDate: "2026-05-28",
 		featured: true,
-		tags: ["Android", "Root", "Kernel"],
+		tags: ["Android", "Root"],
 	},
 	{
-		id: "folktool",
-		title: "FolkTool",
+		id: "ClassIsland",
+		title: "ClassIsland",
 		description:
-			"A fast ROOT flashing tool for FolkPatch with a graphical interface and automated operations, simplifying the complex flashing process.",
-		image: "",
+			"ClassIsland 是一款适用于班级多媒体屏幕的跨平台课表信息显示工具，可以在 Windows PC、Mac 及 Linux 设备屏幕上显示各种信息。本应用的名字灵感源于 iOS 灵动岛(Dynamic Island)功能。",
+		image: "https://camo.githubusercontent.com/1e3b149c7768e03afb9cb0d13800e62350f1c1cbb0ed39938fd985f9d3df61a3/68747470733a2f2f7265732e636c61737369736c616e642e746563682f62616e6e6572732f62616e6e65722d76322d312e77656270",
 		category: "desktop",
-		techStack: ["Flutter", "Dart", "C++", "CMake"],
-		status: "completed",
-		sourceCode: "https://github.com/LyraVoid/FolkTool",
-		startDate: "2026-02-01",
-		endDate: "2026-02-28",
-		tags: ["Android", "Tool", "Desktop"],
+		techStack: [".NET", "Avalonia UI", "C++", "TypeScript "],
+		status: "planned",
+		sourceCode: "https://github.com/ClassIsland/ClassIsland",
+		startDate: "",
+		tags: [ "工具", "Desktop"],
 		showImage: false,
-	},
-	{
-		id: "folkadb",
-		title: "FolkADB",
-		description:
-			"A portable ADB/Fastboot tool written in C, featuring interactive CLI, Tab completion, drag-and-drop module installation, and Shizuku activation.",
-		image: "",
-		category: "desktop",
-		techStack: ["C"],
-		status: "completed",
-		sourceCode: "https://github.com/LyraVoid/FolkADB",
-		startDate: "2025-06-01",
-		endDate: "2026-01-01",
-		tags: ["Android", "ADB", "CLI"],
-		showImage: false,
-	},
-	{
-		id: "folksplash",
-		title: "FolkSplash",
-		description:
-			"A web-based splash.img visualizer for OPPO/Realme/OnePlus devices, supporting unpack, preview, replace, and repack.",
-		image: "",
-		category: "web",
-		techStack: ["React", "TypeScript", "Vite", "Material-UI", "Zustand"],
-		status: "completed",
-		sourceCode: "https://github.com/LyraVoid/FolkSplash",
-		visitUrl: "https://splash.mysqil.com",
-		startDate: "2025-09-01",
-		endDate: "2025-10-01",
-		tags: ["Android", "Tool", "Frontend"],
-		showImage: false,
-	},
+	},	
 ];
-
-// Get project statistics
-export const getProjectStats = () => {
-	const total = projectsData.length;
-	const completed = projectsData.filter((p) => p.status === "completed").length;
-	const inProgress = projectsData.filter(
-		(p) => p.status === "in-progress",
-	).length;
-	const planned = projectsData.filter((p) => p.status === "planned").length;
-
-	return {
-		total,
-		byStatus: {
-			completed,
-			inProgress,
-			planned,
-		},
-	};
-};
 
 // Get projects by category
 export const getProjectsByCategory = (category?: string) => {

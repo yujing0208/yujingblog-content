@@ -33,7 +33,7 @@ export const timelineData: TimelineItem[] = [
 			"学习状态堪忧，成绩一落千丈，整天发呆",
 		],
 		icon: "material-symbols:school",
-		color: "#43bbeb",
+		color: "#9a6bf1",
 	},
 	{
 		id: "高二学习",
@@ -50,6 +50,6 @@ export const timelineData: TimelineItem[] = [
 			"",
 		],
 		icon: "material-symbols:school",
-		color: "#3945f1",
+		color: "#3983f1",
 	},
 ];

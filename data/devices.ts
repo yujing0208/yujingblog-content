@@ -18,7 +18,7 @@ export const devicesData: DeviceCategory = {
 		{
 			name: "vivo Y300i",
 			image: "https://wwwstatic.vivo.com.cn/vivoportal/files/image/detail/20250304/69059603d206f7aa05345607de9c4cf2.png",
-			specs: "Blue/ 12G + 256G",
+			specs: "墨玉黑/ 12G + 256G",
 			description: "轻薄6500mAh(呃...充话费送的)",
 			link: "https://www.vivo.com.cn/vivo/y300i/",
 		},

@@ -15,7 +15,7 @@ export interface AnimeItem {
 	startDate: string;
 	endDate: string;
 }
-export type AnimeItem = {
+ {
 	title: "四月是你的谎言";
 	status: "completed" ;
 	rating: 9.8;

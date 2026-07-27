@@ -165,7 +165,7 @@ const localAnimeList: AnimeItem[] = [
 		title: "我想吃掉你的胰脏",
 		status: "completed",
 		rating: 9.5,
-		cover: "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2545478360.webp",
+		cover: "https://img9.doubanio.com/view/photo/m/public/p2542584155.webp",
 		description: "“没有名字的我，没有未来的她”对他人毫无兴趣，总是独自一人读书的高中生“我”。这样的“我”有一天，偶然捡到一册写着《共病文库》的文库本。那是，天真烂漫的班上人气王·山内樱良私下记录的日记本。里面记载着她身患胰脏的疾病，已经时日无多……。隐藏自己的疾病度过日常的樱良，与知晓其秘密的“我”。——两人的距离，还没有名字。",
 		episodes: "1 episodes",
 		year: "2016",

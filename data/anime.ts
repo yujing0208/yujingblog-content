@@ -28,8 +28,8 @@ export type AnimeItem = {
 	link: "https://www.bilibili.com/bangumi/media/md1699";
 	progress: 22;
 	totalEpisodes: 22;
-	startDate: string;
-	endDate: string;
+	startDate: "2025-07";
+	endDate: "2025-08";
 };
 const localAnimeList: AnimeItem[] = [];
 

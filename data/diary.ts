@@ -22,6 +22,15 @@ const diaryData: DiaryItem[] = [
 		mood: "崩溃",
 		tags: ["博客"],
 	},
+	{
+		id: 2,
+		content: "OK呀我也是起床了好吧。",
+		date: "2026-07-27T12:39:23Z",
+		images: ["https://bee-reg-ab.imagency.cn/p/0579b27512a43f6f5ecdfdd75d363f16.png"],
+		mood: "无语",
+		tags: ["日常"],
+	},
+	
 ];
 
 // 获取日记列表（按时间倒序）

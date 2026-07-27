@@ -197,7 +197,7 @@ const localAnimeList: AnimeItem[] = [
 		title: "龙族第2季",
 		status: "completed",
 		rating: 9.0,
-		cover: "https://puui.qpic.cn/vcover_vt_pic/0/mzc00200fr1ry1o1656480935127/260?imageView2/2/w/167",
+		cover: "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002008260hny1756439343350/260?imageView2/2/w/163/h/227",
 		description: "主角路明非在暑假期间,被学院派遣与师兄楚子航一起执行SS级任务。在回学校的路途中,邂逅了漂亮学妹夏弥。不详的暴雨，悄然落下，带来了⼤地与⼭之王的苏醒消息……少年们该何去何从?",
 		episodes: "24 episodes",
 		year: "2022",

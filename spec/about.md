@@ -1,4 +1,4 @@
-﻿---
+---
 title: "关于我"
 description: "YuJing 的个人介绍"
 ---
@@ -32,6 +32,7 @@ description: "YuJing 的个人介绍"
 ---
 
 > 💬 欢迎添加我的社交账号交流联系！
+
 
 关于此博客模板
 

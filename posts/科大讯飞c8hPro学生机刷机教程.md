@@ -2,7 +2,7 @@
 title: 科大讯飞c8hPro学生机刷机教程
 published: 2026-07-29
 pinned: false
-description: 没错，就是学校发的畅言智慧课堂平板，再次提供保姆级刷机教程，包教包会
+description: 没错，就是学校发的畅言智慧课堂平板，在此提供保姆级刷机教程，包教包会
 tags:
   - 刷机
 category: 技术

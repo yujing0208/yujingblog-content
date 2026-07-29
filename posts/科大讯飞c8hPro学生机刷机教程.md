@@ -6,7 +6,7 @@ description: 没错，就是学校发的畅言智慧课堂平板，再次提供�
 tags:
   - 刷机
 category: 技术
-licenseName: '"Unlicensed"'
+licenseName: 'Unlicensed'
 author: 余京
 draft: false
 date: 2026-07-29

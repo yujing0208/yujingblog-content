@@ -15,10 +15,9 @@ permalink: 刷机教程
 ---
 # iFlytek-C8hPro-Crack
 ---
-
 关于iFlytek C8hPro平板刷机操作的一些研究，此笔记来源于Github上部分开源项目和作者个人总结，尚有不足之处，望理解（仅限电脑）。
 
-:::warning
+:::warning[警告⚠️]
 若想刷机，不要盲目自信，请再三通读全文后在进行操作
 :::
 
@@ -37,11 +36,11 @@ permalink: 刷机教程
 > [!NOTE] 强烈建议
 > 将刷机所需的所有文件按我一样的存放位置，放在C\flash_tool   （就是在C盘创建一个新文件夹名为flash_tool  ），这样的好处是接下来的所有刷机指令都可以直接复制使用
 
-- [ ] [^2]紫光展锐驱动程序
-- [ ] spd_dump深刷工具
-- [ ] [^3]获取读写权限的fdl文件
-- [ ] 解BL锁所需要的相关文件
-- [ ] 刷入平板的原生/类原生GSI
+-  [^2]紫光展锐驱动程序
+-  spd_dump深刷工具
+- [^3]获取读写权限的fdl文件
+- 解BL锁所需要的相关文件
+-  刷入平板的原生/类原生GSI
 
 #### **一. 解除BL锁**
 
@@ -49,9 +48,9 @@ permalink: 刷机教程
 
 - 现在电脑上安装好**紫光展锐驱动程序**。
 - 打开平板的深刷模式，方法：将设备完全关机（*要完全断电，最好长按电源键15秒强制关机*）。
-- 打开深刷工具spd_dump.exe，电脑上会弹出一个黑色的命令窗口。
-- 平板在关机之后摁住音量减键不放（*也只要按音量减键，不要按其他的*），并将设备插入计算机，如能看到在spd_dump.exe的命令窗口出现BROM>字样，即可松开按键。
-- 如果你在之后的操作中平板出现无限重启或黑屏无法启动的情况，请打开深刷工具spd_dump，按住音量减键和电源键15秒，即可连接电脑。
+- 打开深刷工具**spd_dump.exe**，电脑上会弹出一个黑色的命令窗口。
+- 平板在关机之后摁住音量减键不放（*也只要按音量减键，不要按其他的*），并将设备插入计算机，如能看到在spd_dump.exe的命令窗口出现`BROM>`字样，即可松开按键。
+- 如果你在之后的操作中平板出现无限重启或黑屏无法启动的情况，请打开深刷工具**spd_dump**，按住音量减键和电源键15秒，即可连接电脑。
 
 ###### 2. **推送fdl文件：**[^5]
 
@@ -79,9 +78,9 @@ exec
 ```
 r all
 ```
- - 以备份系统内除userdata分区的所有文件，下载的文件保存在spd_dump目录下。
+ - 以备份系统内除`userdata`分区的所有文件，下载的文件保存在`spd_dump目录`下。
 
-3. 将解锁BL的文件刷入uboot和splloader分区：准备好解BL锁文件（`splloader_c8hpro_disverify.bin和uboot_c8hpro_unlock.bin`），在`FDL2>`下输入：
+3. 将解锁BL的文件刷入`uboot`和`splloade`r分区：准备好解BL锁文件（`splloader_c8hpro_disverify.bin和uboot_c8hpro_unlock.bin`），在`FDL2>`下输入：
 ```
 w uboot C:\flash_tool\uboot_c8hpro_unlock.bin
 ```
@@ -105,12 +104,12 @@ w splloader C:\flash_tool\splloader_c8hpro_disverify.bin
 #### **二. 刷写GSI**
 
 1. 寻找合适的GSI，下载并妥善保存。你也可以直接使用我的无限制系统。[^6]
-2. 假设你下载的GSI文件名为`system.img`，推送两个fdl文件后在FDL2>下输入`w system system.img文件路径\system.img`。 耐心等待刷写完成后输入`e userdata`和`reset`。你的平板会重启并开始清理数据，稍等片刻就能进入你刷的系统。如果你的平板在刷完系统后出现无限重启或卡第一屏等情况，重新刷回你备份的原系统system.bin即可。
+2. 假设你下载的GSI文件名为`system.img`，推送两个fdl文件后在`FDL2>`下输入`w system system.img文件路径\system.img`。 耐心等待刷写完成后输入`e userdata`和`reset`。你的平板会重启并开始清理数据，稍等片刻就能进入你刷的系统。如果你的平板在刷完系统后出现无限重启或卡第一屏等情况，重新刷回你备份的原系统`system.bin`即可。
 
 #### **三. 刷回原系统与回锁BL锁**
 
-1. 将你先前备份的原系统system.bin刷回system分区即可恢复原系统。
-2. 回锁BL锁需要将你先前备份的miscdata.bin和uboot.bin重新刷回对应分区，代码此处不再赘述。[^7]
+1. 将你先前备份的原系统`system.bin`刷回`system`分区即可恢复原系统。
+2. 回锁BL锁需要将你先前备份的`miscdata.bin`和`uboot.bin`重新刷回对应分区，代码此处不再赘述。[^7]
 
 
 

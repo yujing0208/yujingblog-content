@@ -27,7 +27,7 @@ export const devicesData: DeviceCategory = {
 		{
 			name: "小米手环10NFC版",
 			image: "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1750932901.51348731.png",
-			specs: "带NFC、麦克风",
+			specs: "带NFC&麦克风",
 			description: "2.0mm超窄四等边，满屏高光|睡眠健康管理|全天心率监测",
 			link: "https://www.mi.com/shop/buy/detail?product_id=21404",
 		},

@@ -20,7 +20,7 @@ const diaryData: DiaryItem[] = [
 		date: "2026-07-26T20:58:00+08:00",
 		images: ["https://bee-reg-ab.imagency.cn/p/0579b27512a43f6f5ecdfdd75d363f16.png"],
 		mood: "崩溃",
-		tags: ["博客"],
+		tags: ["博客搭建"],
 	},
 	{
 		id: 2,
@@ -36,9 +36,16 @@ const diaryData: DiaryItem[] = [
 		date: "2026-07-27T19:06:01+08:00",
 		images: ["https://bee-reg-ab.imagency.cn/p/a425b75dcb73d3b23eed6309a5f84ae1.png"],
 		mood: "心痛",
-		tags: ["博客"],
+		tags: ["博客搭建"],
 	},
-	
+	{
+		id: 4,
+		content: "删了小两百个好友，十来天了，还是只有四个人发现，轮存在感这一块👍。",
+		date: "2026-07-30T14:38:31+08:00",
+		images: ["https://bee-reg-ab.imagency.cn/p/d998833a588e72854cfdb90b193d798e.png"],
+		mood: "扎心➳♥゛",
+		tags: ["碎碎念"],
+	},
 ];
 
 // 获取日记列表（按时间倒序）

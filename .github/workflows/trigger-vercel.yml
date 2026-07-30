@@ -7,12 +7,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  dispatch:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Repository Dispatch
+      - name: Deploy to Vercel
         run: |
-          curl -s -X POST "https://api.github.com/repos/yujing0208/yujingblog/dispatches" \
-            -H "Authorization: token ${{ secrets.DISPATCH_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            -d '{"event_type":"content-updated"}'
+          curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_BItOPjeta2kvX8ygeHX2WwujQaRQ/TTgWQJsUlL?branch=master"

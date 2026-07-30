@@ -117,7 +117,7 @@ const localAnimeList: AnimeItem[] = [
 		title: "铃芽之旅",
 		status: "completed",
 		rating: 9.8,
-		cover: "https://i0.hdslb.com/bfs/bangumi/image/33680a2209c4dba76322b2ffeeaf3dd821db576c.png@450w_600h.webp",
+		cover: "https://i0.hdslb.com/bfs/bangumi/image/53a57fd0999f6c00e19b1d9a52c74e410e0dee9c.png@450w_600h.webp",
 		description: "故事讲述生活在日本九州田舍的17岁少女・铃芽遇见了为了寻找“门”而踏上旅途的青年。追随着青年的脚步,铃芽来到了山上一片废墟之地，在这里静静伫立着一扇古老的门，仿佛是坍塌中存留的唯一遗迹。铃芽仿佛被什么吸引了一般，将手伸向了那扇门…不久之后，日本各地的门开始一扇一扇地打开。据说，开着的门必须关上，否则灾祸将会从门的那一边降临于现世。",
 		episodes: "1 episodes",
 		year: "2023",
@@ -272,7 +272,23 @@ const localAnimeList: AnimeItem[] = [
 		totalEpisodes: 12,
 		startDate: "",
 		endDate: "",
-	},	
+	},
+	{
+		title: "爱上她的理由第二季",
+		status: "planned",
+		rating: 10.0,
+		cover: "https://i1.hdslb.com/bfs/bangumi/image/7274ee43227482787af237a5c7897363ded01602.png@660w_884h.webp",
+		description: "袁君瑭与李诗雅牵手成功，开启了所有人憧憬的梦幻校园恋。然而，当甜蜜的滤镜渐渐褪去，自卑、迷茫与成长的阵痛也如期而至。当炙热的爱意撞上现实的梦想，他们在妥协与并肩之间拉扯，这段青春交响曲也终将迎来最后的抉择。",
+		episodes: "22 episodes",
+		year: "2026?",
+		genre: ["青春","校园","恋爱"],
+		studio: "绘之刃",
+		link: "https://www.bilibili.com/bangumi/media/md420613337",
+		progress: 0,
+		totalEpisodes: 22,
+		startDate: "",
+		endDate: "",
+	}, 	
 ];
 
 export default localAnimeList;

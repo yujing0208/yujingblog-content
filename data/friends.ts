@@ -62,7 +62,7 @@ const friendsData: FriendItem[] = [
 	{
 		id: 7,
 		title: "LX Music",
-		imgurl: "https://lxmusic.toside.cn/img/logo.svg",
+		imgurl: "https://github.com/lyswhut/lx-music-desktop/raw/master/doc/images/icon.png",
 		desc: "一个免费&开源的音乐查找工具",
 		siteurl: "https://lxmusic.toside.cn",
 		tags: ["音乐","免费"],
@@ -86,7 +86,7 @@ const friendsData: FriendItem[] = [
 	{
 		id: 10,
 		title: "合肥市第一中学",
-		imgurl: "http://www.hfyz.net/group1/M00/00/00/wKgEEGFk_zKAXi2vAACIUDf2mxY323.png",
+		imgurl: "https://tse2-mm.cn.bing.net/th/id/OIP-C.c7j-78QvJc2VrZ-j1t80FAAAAA?w=154&h=155&c=7&r=0&o=7&pid=1.7&rm=3",
 		desc: "怀天下抱负，做未来主人。",
 		siteurl: "http://www.hfyz.net/sy/index.html",
 		tags: ["学校"],

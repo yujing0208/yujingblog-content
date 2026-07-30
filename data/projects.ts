@@ -95,10 +95,10 @@ export const projectsData: Project[] = [
 		tags: ["Desktop", "音乐"],
 	},
 	{
-		id: "Twikoo",
-		title: "Twikoo",
+		id: "CloudFlare ImgBed",
+		title: "CloudFlare ImgBed",
 		description:
-			"网站评论系统，简洁、安全、免费",
+			"开源文件托管解决方案,安心存取，轻松分享",
 		image: "",
 		category: "web",
 		techStack: ["Vue 3","Cloudflare R2"],

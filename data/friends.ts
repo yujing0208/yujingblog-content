@@ -14,7 +14,7 @@ const friendsData: FriendItem[] = [
 	{
 		id: 2,
 		title: "Vercel",
-		imgurl: "https://avatars.githubusercontent.com/u/14985020?v=4&s=640",
+		imgurl: "https://ts3.tc.mm.bing.net/th/id/OIP-C.BHToo31Gbbw69wyXq4pqBQAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
 		desc: "Develop. Preview. Ship.",
 		siteurl: "https://vercel.com",
 		tags: ["技术"],
@@ -22,7 +22,7 @@ const friendsData: FriendItem[] = [
 	{
 		id: 3,
 		title: "GitHub",
-		imgurl: "https://avatars.githubusercontent.com/u/9919?v=4&s=640",
+		imgurl: "https://tse3-mm.cn.bing.net/th/id/OIP-C.Lwbgu4eSpSz4gKe-F_k58gHaHa?w=167&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
 		desc: "Where the world builds software",
 		siteurl: "https://github.com",
 		tags: ["技术"],
@@ -62,7 +62,7 @@ const friendsData: FriendItem[] = [
 	{
 		id: 7,
 		title: "LX Music",
-		imgurl: "https://github.com/lyswhut/lx-music-desktop/raw/master/doc/images/icon.png",
+		imgurl: "https://ts1.tc.mm.bing.net/th/id/OIP-C.pxhC07XCuH4CfENun93MqwAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
 		desc: "一个免费&开源的音乐查找工具",
 		siteurl: "https://lxmusic.toside.cn",
 		tags: ["资源"],

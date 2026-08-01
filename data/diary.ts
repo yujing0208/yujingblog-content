@@ -65,7 +65,7 @@ const diaryData: DiaryItem[] = [
 	{
 		id: 7,
 		content: "谁懂通宵两天写出来的屎山代码都跑不起来，有全滚回到一开始的版本",
-		date: "2026-08-31T01:59:05+08:00",
+		date: "2026-07-31T01:59:05+08:00",
 		images: ["https://tse4-mm.cn.bing.net/th/id/OIP-C.FAuf6qKdlov89LMj7PqQJAAAAA?w=170&h=180&c=7&r=0&o=7&pid=1.7&rm=3"],
 		mood: "命苦",
 		tags: ["博客搭建"],
@@ -73,10 +73,18 @@ const diaryData: DiaryItem[] = [
 	{
 		id: 8,
 		content: "买了个lived2d模型，0.15￥呢。原本准备放到博客里，但这个好像是转卖的，算了我支持正版(咳咳！绝对不是因为不会去水印 嗷┗|｀O′|┛~~)",
-		date: "2026-08-01T03:12:05+08:00",
+		date: "2026-08-01T03:59:05+08:00",
 		images: ["https://bee-reg-ab.imagency.cn/p/f7416f30389178e658514f19d65ffb2d.png"],
 		mood: "呃(⊙﹏⊙)",
 		tags: ["日常"],
+	},
+	{
+		id: 9,
+		content: "看板娘终于升级好了，喵🐾 ",
+		date: "2026-08-01T02:55:05+08:00",
+		images: [],
+		mood: "舒服",
+		tags: ["博客搭建"],
 	},
 ];
 

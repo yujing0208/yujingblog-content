@@ -107,6 +107,14 @@ const friendsData: FriendItem[] = [
 		siteurl: "https://zh.kid1412.by/",
 		tags: ["资源"],
 	},
+	{
+		id: 13,
+		title: "GitHub加速",
+		imgurl: "https://weavatar.com/avatar/50abbf204520fa0a98fdaab4bc98a10f",
+		desc: "将 GitHub 链接转换为多区域加速链接，解决 GitHub 访问慢、下载失败等问题",
+		siteurl: "https://gh-proxy.com/",
+		tags: ["工具"],
+	},
 ];
 export function getFriendsList(): FriendItem[] {
 	return friendsData;

@@ -123,6 +123,14 @@ const friendsData: FriendItem[] = [
 		siteurl: "https://img.yujingblog.top",
 		tags: ["图床"],
 	},
+	{
+		id: 15,
+		title: "哲风壁纸",
+		imgurl: "https://haowallpaper.com/favicon.ico",
+		desc: "免费4K高清壁纸-电脑背景图片-Mac壁纸网站",
+		siteurl: "https://haowallpaper.com/",
+		tags: ["图床"],
+	},
 ];
 export function getFriendsList(): FriendItem[] {
 	return friendsData;

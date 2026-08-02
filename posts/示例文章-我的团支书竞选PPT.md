@@ -1,7 +1,7 @@
 ---
 title: 我的团支书竞选 PPT
 published: 2026-08-02
-draft: true
+draft: false
 description: 高一57班 杨伊琳竞选团总支书记的网页 PPT，点击即可在文章里翻阅
 tags:
   - 竞选

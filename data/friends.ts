@@ -73,7 +73,7 @@ const friendsData: FriendItem[] = [
 		imgurl: "https://bee-reg-ab.imagency.cn/p/81985253f7a87ad615ee5ad6fffba283.png",
 		desc: "提供免费、稳定、高速的图片上传与外链服务平台",
 		siteurl: "https://www.beeimg.cn/",
-		tags: ["资源","图床"],
+		tags: ["图床"],
 	},
 	{
 		id: 9,
@@ -114,6 +114,14 @@ const friendsData: FriendItem[] = [
 		desc: "将 GitHub 链接转换为多区域加速链接，解决 GitHub 访问慢、下载失败等问题",
 		siteurl: "https://gh-proxy.com/",
 		tags: ["工具"],
+	},
+	{
+		id: 14,
+		title: "YuJing ImgHub",
+		imgurl: "https://img.yujingblog.top/file/1785690853054_logo.png",
+		desc: "我的个人图床",
+		siteurl: "https://img.yujingblog.top",
+		tags: ["图床"],
 	},
 ];
 export function getFriendsList(): FriendItem[] {

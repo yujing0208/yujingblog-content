@@ -42,7 +42,7 @@ const friendsData: FriendItem[] = [
 		id: 5,
 		title: "Inalineの小站",
 		imgurl:
-			"ttps://inaline.net/usr/themes/inaline/assets/images/logo/cover.png",
+			"https://inaline.net/usr/themes/inaline/assets/images/logo/cover.png",
 		desc: "此情可待成追忆，只是当时已惘然",
 		siteurl: "https://inaline.net",
 		tags: ["博客"],

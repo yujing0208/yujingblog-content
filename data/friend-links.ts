@@ -110,6 +110,24 @@ const friendsData: FriendItem[] = [
 		siteurl: "https://blog.fohok.xin/",
 		tags: ["博客"],
 	},
+	{
+		id: 13,
+		title: "彬红茶日记",
+		imgurl:
+			"https://note.redcha.cn/upload/favicon-256x256.png",
+		desc: "我的个人笔记📒",
+		siteurl: "https://note.redcha.cn",
+		tags: ["博客"],
+	},
+	{
+		id: 14,
+		title: "清枫の小窝",
+		imgurl:
+			"https://pan.xxbyq.net/f/DaAgCx/avatar.png",
+		desc: "只是一个普通高中生罢了",
+		siteurl: " https://wp.qwq2022.top/",
+		tags: ["博客"],
+	},
 ];
 export function getFriendsList(): FriendItem[] {
 	return friendsData;

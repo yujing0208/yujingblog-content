@@ -74,7 +74,7 @@ const diaryData: DiaryItem[] = [
 		id: 8,
 		content: "买了个lived2d模型，0.15￥呢。原本准备放到博客里，但这个好像是转卖的，算了我支持正版(咳咳！绝对不是因为不会去水印 嗷┗|｀O′|┛~~)",
 		date: "2026-08-01T03:59:05+08:00",
-		images: ["https://bee-reg-ab.imagency.cn/p/f7416f30389178e658514f19d65ffb2d.png"],
+		images: ["https://img.yujingblog.top/file/1785786132107_屏幕截图_2026-08-01_185526.webp"],
 		mood: "呃(⊙﹏⊙)",
 		tags: ["日常"],
 	},
@@ -84,6 +84,14 @@ const diaryData: DiaryItem[] = [
 		date: "2026-08-02T02:55:05+08:00",
 		images: [],
 		mood: "舒服",
+		tags: ["博客搭建"],
+	},
+	{
+		id: 10,
+		content: "想要变成这样，快来留言！",
+		date: "2026-08-04T02:58:05+08:00",
+		images: ["https://img.yujingblog.top/file/1785781799608_image.webp"],
+		mood: "羡慕",
 		tags: ["博客搭建"],
 	},
 ];

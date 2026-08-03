@@ -6,7 +6,7 @@ tags: [LX Music, 开源, 免费, 教程]
 category: "软件推荐"
 draft: false
 pinned: false
-image: 'https://bee-reg-ab.imagency.cn/p/800fc40062cd219774deb51c6dc6f370.png'
+image: 'https://ts1.tc.mm.bing.net/th/id/OIP-C.pxhC07XCuH4CfENun93MqwAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3'
 ---
 
 # LX Music（洛雪音乐）：免费开源的全能音乐查找工具

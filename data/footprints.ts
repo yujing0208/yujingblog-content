@@ -9,14 +9,5 @@
 //   markerColor 标记颜色预设：sunset/ocean/violet/forest/amber/citrus，或任意 CSS 颜色
 //   url / urlLabel 弹窗内链接（可选）
 // 经纬度可在高德坐标拾取器获取：https://lbs.amap.com/tools/picker
-export const footprintsData = [
-	{
-		name: "合肥",
-		coordinates: [117.283, 31.861],
-		categories: ["去过"],
-		date: "2026-08-05",
-		description: "皖中之地，江淮分水。",
-		photos: [],
-		markerColor: "sunset",
-	},
-];
+// 当前暂无足迹，待自行添加。
+export const footprintsData = [];

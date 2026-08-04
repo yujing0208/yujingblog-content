@@ -11,9 +11,12 @@
 // 经纬度可在高德坐标拾取器获取：https://lbs.amap.com/tools/picker
 export const footprintsData = [
 	{
-		name: ",
-		coordinates: [],
-		categories: [],
-		markerColor: "",
+		name: "合肥",
+		coordinates: [117.283, 31.861],
+		categories: ["去过"],
+		date: "2026-08-05",
+		description: "皖中之地，江淮分水。",
+		photos: [],
+		markerColor: "sunset",
 	},
 ];

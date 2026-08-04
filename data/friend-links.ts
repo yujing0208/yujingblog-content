@@ -128,6 +128,15 @@ const friendsData: FriendItem[] = [
 		siteurl: " https://wp.qwq2022.top/",
 		tags: ["博客"],
 	},
+	{
+		id: 15,
+		title: "XingHuiSamaの宝藏之地",
+		imgurl:
+			"https://bu.dusays.com/2026/03/24/69c1e38ac1846.jpg",
+		desc: "今天我也要学习吗",
+		siteurl: "https://www.xinghuisama.top/",
+		tags: ["博客"],
+	}
 ];
 export function getFriendsList(): FriendItem[] {
 	return friendsData;

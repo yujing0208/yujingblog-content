@@ -11,9 +11,9 @@
 // 经纬度可在高德坐标拾取器获取：https://lbs.amap.com/tools/picker
 export const footprintsData = [
 	{
-		name: "合肥",
-		coordinates: [117.283042, 31.86119],
-		categories: ["住址"],
-		markerColor: "sunset",
+		name: ",
+		coordinates: [],
+		categories: [],
+		markerColor: "",
 	},
 ];

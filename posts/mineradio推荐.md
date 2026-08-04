@@ -1,12 +1,13 @@
 ---
 title: "MineRadio：把听歌变成私人演唱会的免费开源音乐播放器"
 published: 2026-08-03
-description: "推荐一款 GitHub 上的免费开源音乐播放器 MineRadio（XpHuberrr/Mineradio），电影级粒子视觉、歌词舞台、3D 歌单架全都有，Windows / macOS / Android / 网页版都能用。"
 tags: [MineRadio, 开源, 音乐播放器, 软件推荐]
 category: "软件推荐"
 draft: false
 pinned: false
 image: 'https://img.yujingblog.top/file/1785749527610_屏幕截图_2026-08-03_173046.webp'
+description: "前两天刷B站被一个播放器的封面震住了——星空森林里浮着「一样的月光」，频谱方块像海啸一样往上涌。点进去才发现是个叫MineRadio的开源播放器，作者把它做成了私人视觉电台。我装了一周，已经回不去普通播放器了。它把播放界面整个重做，粒子视觉、3D歌单架、桌面模式全都有，还能导入自己的视频当壁纸。免费开源无广告，跨平台，想体验视觉拉满的听歌方式，可以试试看。"
+descriptionSource: ai
 ---
 
 # MineRadio：把听歌变成私人演唱会的免费开源音乐播放器

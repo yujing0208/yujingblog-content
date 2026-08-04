@@ -121,15 +121,6 @@ const friendsData: FriendItem[] = [
 	},
 	{
 		id: 14,
-		title: "清枫の小窝",
-		imgurl:
-			"https://pan.xxbyq.net/f/DaAgCx/avatar.png",
-		desc: "只是一个普通高中生罢了",
-		siteurl: " https://wp.qwq2022.top/",
-		tags: ["博客"],
-	},
-	{
-		id: 15,
 		title: "XingHuiSamaの宝藏之地",
 		imgurl:
 			"https://bu.dusays.com/2026/03/24/69c1e38ac1846.jpg",

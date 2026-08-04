@@ -13,7 +13,7 @@ export const footprintsData = [
 	{
 		name: "合肥",
 		coordinates: [117.283042, 31.86119],
-		categories: ["去过"],
+		categories: ["住址"],
 		markerColor: "sunset",
 	},
 ];

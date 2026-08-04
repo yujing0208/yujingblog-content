@@ -94,6 +94,14 @@ const diaryData: DiaryItem[] = [
 		mood: "羡慕",
 		tags: ["博客搭建"],
 	},
+	{
+		id: 1,
+		content: "这次是彻底穿了😴",
+		date: "2026-08-05T06:00:00+08:00",
+		images: ["https://img.yujingblog.top/file/1785781799608_image.webp"],
+		mood: "疲惫",
+		tags: ["日常"],
+	},
 ];
 
 // 获取日记列表（按时间倒序）

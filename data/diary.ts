@@ -10,6 +10,7 @@ export interface DiaryItem {
 	location?: string;
 	mood?: string;
 	tags?: string[];
+	imgMode?: string;
 }
 
 // 日记数据
@@ -42,9 +43,10 @@ const diaryData: DiaryItem[] = [
 		id: 4,
 		content: "删了小两百个好友，十来天了，还是只有四个人发现，轮存在感这一块👍。",
 		date: "2026-07-30T14:38:31+08:00",
-		images: ["https://bee-reg-ab.imagency.cn/p/d998833a588e72854cfdb90b193d798e.png"],
+		images: ["https://img.yujingblog.top/file/1785928043492_屏幕截图_2026-07-24_152153.webp"],
 		mood: "扎心➳♥゛",
 		tags: ["碎碎念"],
+		imgMode: "mode-mid",
 	},
 	{
 		id: 5,
@@ -69,6 +71,7 @@ const diaryData: DiaryItem[] = [
 		images: ["https://tse4-mm.cn.bing.net/th/id/OIP-C.FAuf6qKdlov89LMj7PqQJAAAAA?w=170&h=180&c=7&r=0&o=7&pid=1.7&rm=3"],
 		mood: "命苦",
 		tags: ["博客搭建"],
+		imgMode: "mode-grid",
 	},
 	{
 		id: 8,
@@ -77,6 +80,7 @@ const diaryData: DiaryItem[] = [
 		images: ["https://img.yujingblog.top/file/1785786132107_屏幕截图_2026-08-01_185526.webp"],
 		mood: "呃(⊙﹏⊙)",
 		tags: ["日常"],
+		imgMode: "mode-mid",
 	},
 	{
 		id: 9,

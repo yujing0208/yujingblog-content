@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Deploy to Vercel
         run: |
-          curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_BItOPjeta2kvX8ygeHX2WwujQaRQ/TTgWQJsUlL?branch=master"
+          curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_s44cNpfUAFZSbBgQ6lbrIUrjL2iX/mr4m8L3URJ"

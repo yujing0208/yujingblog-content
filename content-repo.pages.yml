@@ -1,0 +1,484 @@
+# =============================================================================
+#  Pages CMS 配置文件
+#  仓库：yujing0208/yujingblog-content   分支：master
+#  放置位置：仓库根目录，文件名必须是  .pages.yml
+# =============================================================================
+#
+#  这个仓库是你博客的「内容源」。构建时 yujingblog-site 的 scripts/sync-content.js
+#  会把它映射过去：
+#      posts   ->  src/content/posts     （文章）
+#      spec    ->  src/content/spec      （关于/导航等独立页面）
+#      data    ->  src/data              （公告、日记、时间线、友链、项目…）
+#      images  ->  public/images         （站内图片）
+#
+#  所以：日常写文章、改公告、加友链，全都在这个仓库里操作。
+#  站点外观类配置（主题色、导航栏、看板娘…）在 yujingblog-site，见另一份配置。
+#
+#  字段定义严格对齐 yujingblog-site/src/content.config.ts 的 zod schema，
+#  不会写出 Astro 无法识别的字段。
+# =============================================================================
+
+
+# -----------------------------------------------------------------------------
+#  媒体库：图片存哪、URL 写成什么
+#  input  = 仓库内路径      output = 站点上的公开路径
+#  rename: false = 保留原文件名（相册里的中文文件名是有意义的，不能被 slug 化）
+# -----------------------------------------------------------------------------
+media:
+  - name: images
+    label: 图片总库
+    input: images
+    output: /images
+    categories: [image]
+    rename: false
+
+  - name: post-images
+    label: 文章配图
+    input: images/posts
+    output: /images/posts
+    categories: [image]
+    rename: false
+
+  - name: diary-images
+    label: 日记配图
+    input: images/diary
+    output: /images/diary
+    categories: [image]
+    rename: false
+
+  - name: album-images
+    label: 相册图片
+    input: images/albums
+    output: /images/albums
+    categories: [image]
+    rename: false
+
+
+content:
+
+  # ===========================================================================
+  #  一、文章
+  # ===========================================================================
+  - name: posts
+    label: 文章
+    type: collection
+    path: posts
+    format: yaml-frontmatter
+    subfolders: false
+    exclude: ["README.md", ".gitkeep"]
+
+    # 新建文章时弹出文件名输入框（默认填标题）。
+    # 中文标题会被 slug 化，所以保留手动改名的机会，方便你写成英文短名。
+    filename:
+      template: "{primary}.md"
+      field: create
+
+    view:
+      primary: title
+      fields: [title, category, published, pinned, draft]
+      sort: [published, updated, title, category]
+      search: [title, description, tags, category]
+      default:
+        sort: published
+        order: desc
+
+    fields:
+      # ---------- 基本信息 ----------
+      - name: title
+        label: 标题
+        type: string
+        required: true
+
+      - name: published
+        label: 发布日期
+        type: date
+        required: true
+        options:
+          format: yyyy-MM-dd
+
+      - name: updated
+        label: 更新日期
+        type: date
+        default: ""
+        description: 留空表示未修改过
+        options:
+          format: yyyy-MM-dd
+
+      - name: description
+        label: 摘要
+        type: text
+        description: 首页 / 列表页显示的简介
+
+      - name: aiSummary
+        label: AI 摘要
+        type: text
+        description: >-
+          文章顶部「AI 摘要」卡片的文案。留空的话，
+          scripts/generate-ai-summary.mjs 会在提交时用 DeepSeek 自动补上。
+
+      - name: image
+        label: 封面图
+        type: string
+        description: >-
+          填图床外链（https://img.yujingblog.top/...）或站内路径（/images/posts/xxx.webp）。
+          这里刻意用文本框而不是图片选择器，因为你现有封面基本都是外链。
+
+      # ---------- 分类与标签 ----------
+      - name: tags
+        label: 标签
+        type: string
+        list: true
+        description: 可自由输入，回车添加一个
+
+      - name: category
+        label: 分类
+        type: select
+        options:
+          values:
+            - 折腾记录
+            - 博客折腾
+            - 博客更新
+            - 软件推荐
+            - 教程
+            - 杂谈
+        description: >-
+          想新增分类，直接改本文件这一段的 values 列表。
+          （注意：现有内容里「折腾记录 / 博客折腾 / 博客更新」语义重叠，建议合并）
+
+      # ---------- 显示控制 ----------
+      - name: draft
+        label: 草稿
+        type: boolean
+        default: false
+        description: 打开后不会出现在正式站点
+
+      - name: pinned
+        label: 置顶
+        type: boolean
+        default: false
+
+      - name: comment
+        label: 开启评论
+        type: boolean
+        default: true
+
+      - name: priority
+        label: 排序权重
+        type: number
+        description: 数字越大越靠前，一般留空
+
+      - name: hideHomeContent
+        label: 首页隐藏正文
+        type: boolean
+        description: 首页列表只显示标题和摘要，不展开内容
+
+      - name: lang
+        label: 语言
+        type: select
+        options:
+          values: [zh-CN, en, ja]
+        description: 留空则跟随站点默认语言
+
+      # ---------- 版权与来源 ----------
+      - name: author
+        label: 作者
+        type: string
+        default: 余京
+
+      - name: sourceLink
+        label: 原文 / 参考链接
+        type: string
+
+      - name: licenseName
+        label: 许可协议名称
+        type: string
+        description: 例如 CC BY 4.0 / Unlicensed
+
+      - name: licenseUrl
+        label: 许可协议链接
+        type: string
+
+      # ---------- 链接 ----------
+      - name: permalink
+        label: 自定义固定链接
+        type: string
+        description: 优先级高于 alias。例如填「刷机教程」，访问路径就变成 /posts/刷机教程/
+
+      - name: alias
+        label: 旧链接别名
+        type: string
+        description: 迁移文章时用来保留老 URL
+
+      # ---------- 加密 ----------
+      - name: encrypted
+        label: 加密文章
+        type: boolean
+        default: false
+
+      - name: password
+        label: 访问密码
+        type: string
+        description: 仅在「加密文章」开启时生效
+
+      - name: passwordHint
+        label: 密码提示
+        type: string
+
+      # ---------- 正文 ----------
+      - name: body
+        label: 正文
+        type: code
+        options:
+          format: markdown
+        description: >-
+          刻意用 Markdown 源码编辑器而不是富文本。
+          Mizuki 主题用了 :::note 容器、::github{repo=""} 指令和内联 HTML，
+          富文本编辑器保存时会把它们改写坏。
+
+
+  # ===========================================================================
+  #  二、独立页面（spec/）
+  #  这些是站点固定路由对应的页面，不要随便增删文件
+  # ===========================================================================
+  - name: pages
+    label: 独立页面
+    type: group
+    items:
+
+      - name: page-about
+        label: 关于我
+        type: file
+        path: spec/about.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: 页面标题
+            type: string
+          - name: description
+            label: 页面描述
+            type: string
+          - name: body
+            label: 页面内容
+            type: code
+            options:
+              format: markdown
+            description: 含 HTML 片段和 ::github{} 指令，用源码模式编辑
+
+      - name: page-websites
+        label: 网站导航
+        type: file
+        path: spec/websites.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: 页面标题
+            type: string
+          - name: description
+            label: 页面描述
+            type: string
+          - name: body
+            label: 页面说明文字
+            type: code
+            options:
+              format: markdown
+            description: 导航卡片数据在「站点数据 → 网站导航数据」里维护，这里只放页面顶部的说明
+
+      - name: page-friends
+        label: 友链页说明
+        type: file
+        path: spec/friends.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: 页面标题
+            type: string
+          - name: description
+            label: 页面描述
+            type: string
+          - name: body
+            label: 页面说明文字
+            type: code
+            options:
+              format: markdown
+
+      - name: page-friend-links
+        label: 友链申请说明
+        type: file
+        path: spec/friend-links.md
+        format: yaml-frontmatter
+        fields:
+          - name: title
+            label: 页面标题
+            type: string
+          - name: description
+            label: 页面描述
+            type: string
+          - name: body
+            label: 页面说明文字
+            type: code
+            options:
+              format: markdown
+
+
+  # ===========================================================================
+  #  三、站点数据（data/*.ts）
+  #
+  #  ⚠️ 这些是 TypeScript 文件，PagesCMS 只能以「代码编辑器」方式打开，
+  #     没有可视化表单。带语法高亮、可直接改，保存即提交。
+  #
+  #  想要真正的表单编辑（点按钮加一条日记 / 一个友链），需要把它们改造成
+  #  JSON + 一层 TS 包装。改造方案见文件末尾说明。
+  # ===========================================================================
+  - name: site-data
+    label: 站点数据
+    type: group
+    items:
+
+      - name: data-announcement
+        label: 公告栏
+        type: file
+        path: data/announcement.ts
+        format: code
+
+      - name: data-diary
+        label: 日记 / 说说
+        type: file
+        path: data/diary.ts
+        format: code
+
+      - name: data-timeline
+        label: 时间线（经历）
+        type: file
+        path: data/timeline.ts
+        format: code
+
+      - name: data-footprints
+        label: 足迹地图
+        type: file
+        path: data/footprints.ts
+        format: code
+
+      - name: data-friends
+        label: 友链
+        type: file
+        path: data/friends.ts
+        format: code
+
+      - name: data-friend-links
+        label: 友链（备份副本）
+        type: file
+        path: data/friend-links.ts
+        format: code
+
+      - name: data-website
+        label: 网站导航数据
+        type: file
+        path: data/website.ts
+        format: code
+
+      - name: data-projects
+        label: 项目展示
+        type: file
+        path: data/projects.ts
+        format: code
+
+      - name: data-skills
+        label: 技能展示
+        type: file
+        path: data/skills.ts
+        format: code
+
+      - name: data-anime
+        label: 追番 / 书单 / 游戏
+        type: file
+        path: data/anime.ts
+        format: code
+
+      - name: data-devices
+        label: 我的设备
+        type: file
+        path: data/devices.ts
+        format: code
+
+
+  # ===========================================================================
+  #  四、杂项
+  # ===========================================================================
+  - name: repo-readme
+    label: 仓库 README
+    type: file
+    path: README.md
+    format: code
+
+
+# -----------------------------------------------------------------------------
+#  全局设置
+# -----------------------------------------------------------------------------
+settings:
+  content:
+    # 关键项，必须为 true。
+    #
+    # 你现有文章里有一批 schema 之外的历史字段（date、pubDate），
+    # 以及 Astro 内部用的 prevTitle / prevSlug / nextTitle / nextSlug。
+    # merge: false 会在保存时把这些字段直接删掉。
+    merge: true
+
+  commit:
+    identity: user
+    templates:
+      create: "content(create): {filename} (via Pages CMS)"
+      update: "content(update): {filename} (via Pages CMS)"
+      delete: "content(delete): {filename} (via Pages CMS)"
+      rename: "content(rename): {oldFilename} -> {newFilename} (via Pages CMS)"
+
+
+# =============================================================================
+#  附：把 data/*.ts 升级成可视化表单
+# =============================================================================
+#
+#  现状：data 目录全是 .ts，PagesCMS 无法解析成表单，只能当代码改。
+#
+#  改造办法（以日记为例，其它同理，改动都在本仓库内）：
+#
+#    1. 新建 data/diary.json，把数组内容原样搬过去：
+#         [
+#           { "id": 1, "content": "...", "date": "2026-07-26T20:58:00+08:00", ... }
+#         ]
+#
+#    2. 把 data/diary.ts 改成薄包装（helper 函数保留）：
+#         import raw from "./diary.json";
+#         export interface DiaryItem { /* 原样保留 */ }
+#         const diaryData: DiaryItem[] = raw as DiaryItem[];
+#         export const getDiaryList = (limit?: number) => { /* 原样保留 */ };
+#         export const getAllTags = () => { /* 原样保留 */ };
+#
+#    3. 在本文件里把 data-diary 换成结构化表单：
+#
+#         - name: data-diary
+#           label: 日记 / 说说
+#           type: file
+#           path: data/diary.json
+#           format: json
+#           list: true
+#           view:
+#             primary: content
+#           fields:
+#             - { name: id,       label: 编号,   type: number, required: true }
+#             - { name: date,     label: 时间,   type: date, options: { time: true, format: "yyyy-MM-dd'T'HH:mm:ssXXX" } }
+#             - { name: content,  label: 内容,   type: text, required: true }
+#             - { name: mood,     label: 心情,   type: string }
+#             - { name: location, label: 地点,   type: string }
+#             - { name: tags,     label: 标签,   type: string, list: true }
+#             - { name: images,   label: 配图,   type: string, list: true }
+#             - name: imgMode
+#               label: 图片排版
+#               type: select
+#               options:
+#                 values: [mode-mid, mode-grid]
+#
+#  适合改造的（纯数据、无 import）：announcement / devices / footprints / anime
+#  需要多留意的（含 import 或 helper 函数）：diary / timeline / friends / website /
+#                                            friend-links / projects / skills
+#
+#  需要我把这套改造全做了的话说一声，我可以一次性改完并同步更新本配置。
+# =============================================================================

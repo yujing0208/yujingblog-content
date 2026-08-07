@@ -356,6 +356,24 @@ const localAnimeList: AnimeItem[] = [
 		link: "https://www.bilibili.com/bangumi/media/md28229881",
 		progress: 12,
 		totalEpisodes: 12
+	},
+	{
+		title: "龙族",
+		status: "completed",
+		category: "novel",
+		rating: 7.7,
+		cover: "https://img3.doubanio.com/view/subject/l/public/s27724093.jpg",
+		description: "他以为他将这样度过一生，他以为他始终只是个衰小孩。但是，一封来自卡塞尔学院的录取通知书改变了他的一生。云层里透出神秘的吟唱：你也有神奇的父母，你也有热血的同伴，你的血管里流动着龙族的血液。而你的目标将是 —— 屠龙。",
+		episodes: "5",
+		year: "2010",
+		genre: [
+			"奇幻",
+			"青春伤感"
+		],
+		studio: "江南",
+		link: "",
+		progress: 4,
+		totalEpisodes: 5
 	}
 ];
 

@@ -32,18 +32,25 @@ export interface AnnouncementData {
 export const announcementData: AnnouncementData = {
 	title: "",
 	content: [
-		// 第 1 则：使用全局 link（Learn More → 旧站）
 		"又换博客啦！欢迎访问 YuJing 的小站；想访问旧站的可以点击下方「Learn More」按钮",
-		// 第 2 则：便签墙上线，独立链接（去留言 → 便签墙）
 		{
 			content: "便签墙上线啦！欢迎留下你的足迹与祝福，点击下方「去留言」开始～",
 			link: {
 				enable: true,
 				text: "去留言",
 				url: "https://notes.yujingblog.top/",
-				external: true,
-			},
+				external: true
+			}
 		},
+		{
+			content: "增加了一个QQ 群聊风格的留言板，快去试试~",
+			link: {
+				enable: true,
+				text: "去留言",
+				url: "https://www.yujingblog.top/guestbook/",
+				external: false
+			}
+		}
 	],
 	interval: 4000,
 	closable: true,
@@ -51,6 +58,6 @@ export const announcementData: AnnouncementData = {
 		enable: true,
 		text: "Learn More",
 		url: "https://old.yujingblog.top",
-		external: true,
-	},
+		external: true
+	}
 };

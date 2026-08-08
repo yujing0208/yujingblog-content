@@ -447,6 +447,25 @@ const localAnimeList: AnimeItem[] = [
 		link: "https://www.bilibili.com/bangumi/media/md28228781",
 		progress: 24,
 		totalEpisodes: 24
+	},
+	{
+		title: "间谍过家家",
+		status: "completed",
+		category: "anime",
+		rating: 9.7,
+		cover: "https://i0.hdslb.com/bfs/bangumi/image/a524567f86ec21368731f6dc283f66bd1bd0af92.png@450w_600h.webp",
+		description: "每个人都有不可告人的一面。这是一个世界各国均暗地里进行激烈情报战的时代。奥斯塔尼亚（Ostania）与维斯达利斯（Westalis）的冷战状态已经持续数十年。<黄昏>是维斯达利斯情报局奥斯塔尼亚对策科<WISE>的一名优秀间谍。为调查威胁两国和平的人物——奥斯塔尼亚国家统一党总裁多诺万·德斯蒙，上级给予了他一个绝密任务。任务名为：<枭（Strix）>行动。内容是“一周之内组建家庭，潜入德斯蒙儿子就读的名门学校的联谊会”。于是<黄昏>扮演成精神科医生劳埃德·福杰，开始组建家庭。然而，他找来的女儿阿尼亚是个能读心的超能力者，妻子约尔是个杀手！三人利害关系一致，便互相隐瞒身份，开始了共同生活。世界的和平，就掌握在这意外不断的临时一家人手中。",
+		episodes: "37",
+		year: "2022",
+		genre: [
+			"漫画改",
+			"日常",
+			"搞笑"
+		],
+		studio: "WIT STUDIO×CloverWorks",
+		link: "https://www.bilibili.com/bangumi/media/md21086686",
+		progress: "",
+		totalEpisodes: ""
 	}
 ];
 

@@ -393,6 +393,21 @@ const localAnimeList: AnimeItem[] = [
 		link: "https://chainsawman.dog/",
 		progress: 12,
 		totalEpisodes: 12
+	},
+	{
+		title: "和平精英",
+		status: "onhold",
+		category: "game",
+		rating: 3,
+		cover: "",
+		description: "",
+		episodes: "",
+		year: "",
+		genre: [],
+		studio: "",
+		link: "https://gp.qq.com/main.shtml",
+		progress: "",
+		totalEpisodes: ""
 	}
 ];
 

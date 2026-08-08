@@ -506,6 +506,26 @@ const localAnimeList: AnimeItem[] = [
 		link: "https://www.bilibili.com/bangumi/media/md3398",
 		progress: "",
 		totalEpisodes: ""
+	},
+	{
+		title: "辉夜大小姐想让我告白 ",
+		status: "dropped",
+		category: "anime",
+		rating: 9.5,
+		cover: "https://i0.hdslb.com/bfs/bangumi/image/ffe6ebdf6770e7975bf830bee73a03c79e81b690.png@450w_600h.webp",
+		description: "秀知院学园是秀才云集的菁英学校，在学生会中担任学生会副会长·四宫辉夜遇见了学生会长·白银御行。原以为这两个任谁都觉得很登对的天才应该很快就会在一起，但这两人却因为过高的自尊心导致他们终没能向对方告白。“该用什么办法才能让对方向自己告白呢？”在这场恋爱头脑战中用尽各种智慧谋略、身经百战的两人，各自在心中下了某个决心。在秀知院学园高中部的文化祭“奉心祭”的最终日到来前，两人的恋情将会出现巨大的进展。",
+		episodes: "",
+		year: "2019",
+		genre: [
+			"漫画改",
+			"搞笑",
+			"恋爱",
+			"校园"
+		],
+		studio: "A-1 Pictures",
+		link: "https://www.bilibili.com/bangumi/media/md28237120",
+		progress: "",
+		totalEpisodes: ""
 	}
 ];
 

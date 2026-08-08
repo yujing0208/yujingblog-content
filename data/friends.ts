@@ -1,4 +1,4 @@
-// 友情链接数据配置
+﻿// 友情链接数据配置
 // 用于管理友情链接页面的数据
 import type { FriendItem } from "../types/friends";
 const friendsData: FriendItem[] = [
@@ -88,6 +88,24 @@ const friendsData: FriendItem[] = [
 		imgurl: "https://bu.dusays.com/2026/03/24/69c1e38ac1846.jpg",
 		desc: "今天我也要学习吗",
 		siteurl: "https://www.xinghuisama.top/",
+		tags: [
+			"博客"
+		]
+	},
+	{
+		title: "fqzlr",
+		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=20447289&s=640",
+		desc: "躬身入局，心为主理，行有尺度，自持本心.",
+		siteurl: "https://fqzlr.com/",
+		tags: [
+			"博客"
+		]
+	},
+	{
+		title: "团子和蛋糕",
+		imgurl: "https://blog.tsh520.cn/assets/ziyuan/tx.webp",
+		desc: "如果你喜欢那么欢迎来到我的世界！",
+		siteurl: "https://blog.tsh520.cn",
 		tags: [
 			"博客"
 		]

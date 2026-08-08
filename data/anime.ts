@@ -546,6 +546,45 @@ const localAnimeList: AnimeItem[] = [
 		link: "https://www.bilibili.com/bangumi/media/md134932",
 		progress: "",
 		totalEpisodes: ""
+	},
+	{
+		title: "我在精神病院学斩神",
+		status: "completed",
+		category: "novel",
+		rating: 9.9,
+		cover: "https://p6-novel-sign.byteimg.com/novel-pic/c5397e4a514736bb1c6754663dbee3db~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1786249829&x-signature=KVJgx6MzQ5Dpta7rIeD1cBRRXyc%3D",
+		description: "你是否想过，在那高悬于世人头顶的月亮之上，伫立着守望人间的神明？ 你是否想过，在人潮汹涌的现代城市之中，存在代替神明行走人间的超凡之人？ 人类统治的社会中，潜伏着无数诡异； 在那些无人问津的生命禁区，居住着古老的神明。 而属于大夏的神明，究竟去了何处？ 在",
+		episodes: "",
+		year: "2024",
+		genre: [
+			"都市",
+			"神话",
+			"异能"
+		],
+		studio: "三九音域",
+		link: "",
+		progress: "",
+		totalEpisodes: ""
+	},
+	{
+		title: "葬送的芙莉莲 ",
+		status: "planned",
+		category: "anime",
+		rating: 9.9,
+		cover: "https://i0.hdslb.com/bfs/bangumi/image/f3ebb500b701a387f5abde67516c5c96bbd2faff.png@450w_600h.webp",
+		description: "寿命逾千年的魔法使芙莉莲，以曾经共同战胜魔王的勇者辛美尔之死为契机，踏上了了解人类的旅途。邂逅了同属勇者小队的僧侣海塔与战士艾泽分别培养出的菲伦与休塔尔克，芙莉莲与二人一同前往灵魂安眠之地。去往此地需要【一级魔法使】资格，因此芙莉莲与菲伦前往魔法都市维萨斯特，参加一级魔法使选拔测验。在那里有着形形色色的卓越魔法使…此刻，最顶尖的魔法将在维萨斯特展开激烈碰撞！",
+		episodes: "28",
+		year: "2023",
+		genre: [
+			"漫画改",
+			"奇幻",
+			"治愈",
+			"冒险"
+		],
+		studio: "MADHOUSE",
+		link: "https://www.bilibili.com/bangumi/media/md21087073",
+		progress: "",
+		totalEpisodes: ""
 	}
 ];
 

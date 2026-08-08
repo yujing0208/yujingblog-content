@@ -428,6 +428,25 @@ const localAnimeList: AnimeItem[] = [
 		link: "https://www.bilibili.com/bangumi/media/md28228775",
 		progress: "",
 		totalEpisodes: ""
+	},
+	{
+		title: "怪盗基德1412",
+		status: "completed",
+		category: "anime",
+		rating: 9.8,
+		cover: "https://i0.hdslb.com/bfs/bangumi/image/a8297ae2b0099cfc287b321a4ef99cd3855f299e.png@450w_600h.webp",
+		description: "喜欢魔术的高中生黑羽快斗。父亲是天才魔术师，但也有世界大盗怪盗基德这一不为人知的一面。然而，他的父亲因魔术中的意外事故而去世了。自那8年后，快斗意外得知了父亲背后的一面，怀疑他非因事故而死，而是被什么人所杀害的。为了解除这个疑惑，快斗身着礼帽和白色斗篷，继承了父亲的轨迹，成为了怪盗基德。",
+		episodes: "24",
+		year: "2014",
+		genre: [
+			"漫画改",
+			"智斗",
+			"奇幻"
+		],
+		studio: "青山刚昌",
+		link: "https://www.bilibili.com/bangumi/media/md28228781",
+		progress: 24,
+		totalEpisodes: 24
 	}
 ];
 

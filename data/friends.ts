@@ -53,26 +53,6 @@ const friendsData: FriendItem[] = [
 		]
 	},
 	{
-		id: 6,
-		title: "孟轩科技's blog",
-		imgurl: "https://blog.mxw2024.top/assets/images/favicon.ico",
-		desc: "一个简洁、美观、纯净、无广告的小站",
-		siteurl: "https://blog.mxw2024.top/",
-		tags: [
-			"博客"
-		]
-	},
-	{
-		id: 8,
-		title: "Ariasakaの小窝",
-		imgurl: "https://img.0v0.my/2024/12/05/67517bcf104da.png",
-		desc: "人有悲欢离合 月有阴晴圆缺",
-		siteurl: "https://blog.yaria.top",
-		tags: [
-			"博客"
-		]
-	},
-	{
 		id: 9,
 		title: "阿叶Ayeez的小站",
 		imgurl: "https://qiniu.ayeez.cn/avatar.jpg",
@@ -93,31 +73,11 @@ const friendsData: FriendItem[] = [
 		]
 	},
 	{
-		id: 11,
-		title: "Liseezn'blog",
-		imgurl: "https://blog.liseezn.top/logo.webp",
-		desc: "分享学习，项目，及教程",
-		siteurl: "https://blog.liseezn.top",
-		tags: [
-			"博客"
-		]
-	},
-	{
 		id: 12,
 		title: "谶的生活记",
 		imgurl: "https://blog.fohok.xin/wp-content/uploads/2026/04/wp-17708563798823983127499835001104525740135945006403.png",
 		desc: "生活就像一杯茶,细品都是好",
 		siteurl: "https://blog.fohok.xin/",
-		tags: [
-			"博客"
-		]
-	},
-	{
-		id: 13,
-		title: "彬红茶日记",
-		imgurl: "https://note.redcha.cn/upload/favicon-256x256.png",
-		desc: "我的个人笔记📒",
-		siteurl: "https://note.redcha.cn",
 		tags: [
 			"博客"
 		]

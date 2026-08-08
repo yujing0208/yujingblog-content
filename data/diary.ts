@@ -179,6 +179,18 @@ const diaryData: DiaryItem[] = [
 			"碎碎念"
 		],
 		imgMode: ""
+	},
+	{
+		content: "AI漫剧误我啊！\n:smallshake-35: ",
+		date: "2026-08-09T5:42:00+08:00",
+		images: [],
+		location: "家",
+		mood: "累",
+		tags: [
+			"日常"
+		],
+		imgMode: "",
+		id: 15
 	}
 ];
 

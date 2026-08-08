@@ -585,6 +585,76 @@ const localAnimeList: AnimeItem[] = [
 		link: "https://www.bilibili.com/bangumi/media/md21087073",
 		progress: "",
 		totalEpisodes: ""
+	},
+	{
+		title: "十日终焉",
+		status: "completed",
+		category: "novel",
+		rating: 9.9,
+		cover: "https://tse3-mm.cn.bing.net/th/id/OIP-C.i3uZCP086j-vdREBJi8DCgHaKe?w=203&h=287&c=7&r=0&o=7&pid=1.7&rm=3",
+		description: "当我以为这只是寻常的一天时，却发现自己被捉到了终焉之地。 当我以为只需要不断的参加死亡游戏就可以逃脱时，却发现众人开始觉醒超自然之力。 当我以为这里是「造神之地」时，一切却又奔着湮灭走去。",
+		episodes: "",
+		year: "2025",
+		genre: [
+			"脑洞",
+			"推理",
+			"无限流",
+			"玄幻"
+		],
+		studio: "杀虫队队员",
+		link: "",
+		progress: "",
+		totalEpisodes: ""
+	},
+	{
+		title: "",
+		status: "",
+		category: "",
+		rating: "",
+		cover: "",
+		description: "",
+		episodes: "",
+		year: "",
+		genre: [],
+		studio: "",
+		link: "",
+		progress: "",
+		totalEpisodes: ""
+	},
+	{
+		title: "三角洲行动",
+		status: "dropped",
+		category: "game",
+		rating: 2.5,
+		cover: "https://ts2.tc.mm.bing.net/th/id/OADD2.1236950586074667_10E952XP1L5EA4O?w=64&h=64&o=6&pid=21.2",
+		description: "",
+		episodes: "",
+		year: "",
+		genre: [],
+		studio: "",
+		link: "https://df.qq.com/",
+		progress: "",
+		totalEpisodes: ""
+	},
+	{
+		title: "玉子市场",
+		status: "planned",
+		category: "anime",
+		rating: 9.6,
+		cover: "https://i0.hdslb.com/bfs/bangumi/67da3dae76e526a925b78b1d8abe21c870333491.jpg@450w_600h.webp",
+		description: "\n座落某个小镇的兔子商店街上，有一间日式饼店，住着一位十分喜欢饼类小吃的高中一年级女生——玉子。除了偶尔在店铺协助父亲，以及钻研新口味的饼类小吃外，她亦有跟学校的朋友参与羽毛球部活动。而饼店对面是同行的竞争对手，两边的父亲经常都因生意问题而喧哗。不过对方儿子——饼藏却自小跟玉子建立青梅竹马的关系，近日更不断隐约地表达心思，只是玉子没有特别注意，更常常被旁观的朋友拿出来扰攘一番。总而言之，玉子就是在商店街众人的护荫下，如此热闹地渡过每一天，生活可谓过得相当快乐。除夕，也就是玉子的生日，处于商店街年末最繁忙的时刻。庆祝仪式已经成为了商店街上下的惯例，唯独今年的饼藏没有准时来到。直到他带着礼物来到之时……一只光辉灿烂的鸟出现...",
+		episodes: "12",
+		year: "2013",
+		genre: [
+			"萌系",
+			"少女",
+			"治愈",
+			"日常"
+		],
+		studio: "京都アニメーション",
+		link: "https://www.bilibili.com/bangumi/media/md116772",
+		progress: "",
+		totalEpisodes: ""
 	}
 ];
 

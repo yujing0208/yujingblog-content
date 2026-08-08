@@ -1,13 +1,13 @@
 ---
-title: "给博客加了 AI 摘要卡片"
+title: 给博客加了 AI 摘要卡片
 published: 2026-08-05
-description: "给文章页加了 AI 摘要卡片：DeepSeek 生成、打字机呈现，提交新文章时自动补。"
-tags: [AI摘要, Mizuki, DeepSeek, 博客折腾]
-category: "博客更新"
+description: 给文章页加了 AI 摘要卡片：DeepSeek 生成、打字机呈现，提交新文章时自动补。
+tags: ["AI摘要", "Mizuki", "DeepSeek", "博客折腾"]
+category: 博客更新
 draft: false
-aiSummary: "我给博客每篇加了张AI摘要卡片，DeepSeek生成50字导语，打字机动画展示，提交时钩子自动补上，省得访客费劲扫正文。"
+aiSummary: 我给博客每篇加了张AI摘要卡片，DeepSeek生成50字导语，打字机动画展示，提交时钩子自动补上，省得访客费劲扫正文。
+comment: true
 ---
-
 访客点进一篇文章之前，其实最想知道的是「这篇到底讲啥」。之前得自己扫正文才能判断，挺费劲。于是我在每篇文章顶部加了一张 AI 摘要卡片——访客一眼扫过去就知道这篇值不值得读。
 
 > 它和首页那个 `description` 不是一回事。首页 `description` 是给列表页看的简短一句；AI 摘要是文章内部的人性化导语，更像博主本人在跟你打招呼。
@@ -59,3 +59,4 @@ flowchart LR
 - 写新文章不用管摘要，钩子会帮你搞定。
 
 > 想看实际效果，随便点开一篇旧文章就行——现在它们都已经带摘要了。
+

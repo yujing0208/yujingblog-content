@@ -1,21 +1,21 @@
 ---
-title: "上线了：一个用 Web Audio + Three.js 做的 3D 音乐可视化页面"
+title: 上线了：一个用 Web Audio + Three.js 做的 3D 音乐可视化页面
 published: 2026-08-07
 pinned: false
-description: "从零到上线，记录一个 3D 音乐可视化页面的技术选型、音频频谱分析、Three.js 渲染与性能优化的完整过程。"
-tags: [Three.js, Web Audio API, 可视化, WebGL]
-category: "折腾记录"
-licenseName: "CC BY 4.0"
-author: "余京"
+description: 从零到上线，记录一个 3D 音乐可视化页面的技术选型、音频频谱分析、Three.js 渲染与性能优化的完整过程。
+tags: ["Three.js", "Web Audio API", "可视化", "WebGL"]
+category: 折腾记录
+licenseName: CC BY 4.0
+author: 余京
 sourceLink: "https://github.com/Seasir-Hyde/Firefly-hyde"
 draft: false
 date: 2026-08-07
 updated: 2026-08-07
 pubDate: 2026-08-07
 lang: zh-CN
-aiSummary: "折腾了挺久的浏览器3D音乐可视化终于跑通了，用频谱驱动柱子跳动，还踩了不少性能坑，这篇聊聊实现和爬坑记录。"
+aiSummary: 折腾了挺久的浏览器3D音乐可视化终于跑通了，用频谱驱动柱子跳动，还踩了不少性能坑，这篇聊聊实现和爬坑记录。
+comment: true
 ---
-
 做了挺久的一个小项目终于跑起来了：一个直接在浏览器里跑的 3D 音乐可视化页面。丢一段音频进去，或者开麦克风，画面就会跟着频谱实时跳动。这篇先讲讲它怎么实现的，以及上线踩到的几个坑。
 
 :::tip
@@ -166,3 +166,4 @@ python -m http.server 8080
 - [MDN: Web Audio API](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Audio_API)
 - [Three.js 官方文档](https://threejs.org/docs/)
 - [AnalyserNode - Web Audio API](https://developer.mozilla.org/zh-CN/docs/Web/API/AnalyserNode)
+

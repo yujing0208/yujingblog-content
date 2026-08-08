@@ -317,11 +317,29 @@ const friendsData: FriendItem[] = [
 	},
 	{
 		title: "Qwerty Learner",
-		imgurl: "https://qwerty.kaiyi.cool/",
+		imgurl: "https://a.favicon.im/qwerty.kaiyi.cool",
 		desc: "键盘工作者单词记忆软件",
 		siteurl: "https://qwerty.kaiyi.cool/",
 		tags: [
 			"学习"
+		]
+	},
+	{
+		title: "小小API",
+		imgurl: "https://a.favicon.im/xxapi.cn",
+		desc: "小小API-专业的API服务平台",
+		siteurl: "https://xxapi.cn/",
+		tags: [
+			"API"
+		]
+	},
+	{
+		title: " UApiPro",
+		imgurl: "https://a.favicon.im/uapis.cn",
+		desc: "免费、稳定、快速的公共 API",
+		siteurl: "https://uapis.cn/",
+		tags: [
+			"API"
 		]
 	}
 ];

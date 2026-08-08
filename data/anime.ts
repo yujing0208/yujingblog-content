@@ -526,6 +526,26 @@ const localAnimeList: AnimeItem[] = [
 		link: "https://www.bilibili.com/bangumi/media/md28237120",
 		progress: "",
 		totalEpisodes: ""
+	},
+	{
+		title: "青春猪头少年不会梦到兔女郎学姐",
+		status: "completed",
+		category: "anime",
+		rating: 9.8,
+		cover: "https://i0.hdslb.com/bfs/bangumi/1cc333ff578e5ea9fded7e454953a4e2291440c2.png@450w_600h.webp",
+		description: "青春期症候群——这是一种只发生在易敏感和不稳定的青春期的、不可思议的现象。例如，在梓川咲太面前出现的野生兔女郎。她的真实身份是高中高年级学生，明星活动休止的女演员樱岛麻衣。她迷人的身姿，不知为何在周围的人眼里看不出来。咲太决定解开这一谜题。在与麻衣一起度过的时间里，咲太知道了她秘密的想法……女主人公们一个接一个地出现在咲太的周围，她们都有着“青春期症候群”。在天空和大海都很闪耀的小镇上，开始了令人激动的故事。",
+		episodes: "13",
+		year: "2018",
+		genre: [
+			"小说改",
+			"恋爱",
+			"奇幻",
+			"校园"
+		],
+		studio: "A-1 Pictures",
+		link: "https://www.bilibili.com/bangumi/media/md134932",
+		progress: "",
+		totalEpisodes: ""
 	}
 ];
 

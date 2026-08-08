@@ -163,6 +163,17 @@ const diaryData: DiaryItem[] = [
 			"博客更新"
 		],
 		imgMode: "mode-grid"
+	},
+	{
+		content: "博客基本已经成熟了",
+		date: "2026-08-08T15:28:00+08:00",
+		images: [],
+		location: "",
+		mood: "放松",
+		tags: [
+			"博客更新"
+		],
+		imgMode: ""
 	}
 ];
 

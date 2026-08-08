@@ -399,7 +399,7 @@ const localAnimeList: AnimeItem[] = [
 		status: "onhold",
 		category: "game",
 		rating: 3,
-		cover: "",
+		cover: "https://tse2-mm.cn.bing.net/th/id/OIP-C.iMXnlHI7l1uaC7tZ4efMuwAAAA?w=153&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
 		description: "",
 		episodes: "",
 		year: "",

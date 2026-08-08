@@ -143,6 +143,7 @@ const diaryData: DiaryItem[] = [
 		]
 	},
 	{
+		id: 12,
 		content: "我无疑是崩溃的",
 		date: "2026-08-07T09:58:00+08:00",
 		images: [
@@ -156,6 +157,7 @@ const diaryData: DiaryItem[] = [
 		imgMode: "mode-grid"
 	},
 	{
+		id: 13,
 		content: "博客基本已经成熟了",
 		date: "2026-08-08T15:28:00+08:00",
 		images: [],
@@ -167,6 +169,7 @@ const diaryData: DiaryItem[] = [
 		imgMode: ""
 	},
 	{
+		id: 14,
 		content: "666，一直以为是我网站没优化好，没做优选，没用CDN，结果今天用我🐎手机，才发现……\nym的是设备的问题，还只是14P，秒进3D音乐可视化页面，都不带加载的，我哭死了┭┮﹏┭┮\n原来只是我设备都太烂了……",
 		date: "2026-08-08T18:18:00+08:00",
 		images: [],

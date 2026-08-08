@@ -341,6 +341,15 @@ const friendsData: FriendItem[] = [
 		tags: [
 			"API"
 		]
+	},
+	{
+		title: "Emojiall",
+		imgurl: "https://a.favicon.im/www.emojiall.com",
+		desc: "Emoji大全",
+		siteurl: "https://www.emojiall.com/zh-hans",
+		tags: [
+			"资源"
+		]
 	}
 ];
 export function getFriendsList(): FriendItem[] {

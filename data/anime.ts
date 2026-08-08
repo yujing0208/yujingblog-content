@@ -172,7 +172,7 @@ const localAnimeList: AnimeItem[] = [
 	},
 	{
 		title: "秒速五厘米",
-		status: "watching",
+		status: "onhold",
 		category: "anime",
 		rating: 9.6,
 		cover: "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/sdp0011n60epnph1748678624/260?imageView2/2/w/163/h/227",
@@ -264,7 +264,7 @@ const localAnimeList: AnimeItem[] = [
 	},
 	{
 		title: "吞噬星空​",
-		status: "watching",
+		status: "onhold",
 		category: "anime",
 		rating: 9.4,
 		cover: "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/324olz7ilvo2j5f1781926278904/260?imageView2/2/w/167/h/233",
@@ -282,7 +282,7 @@ const localAnimeList: AnimeItem[] = [
 	},
 	{
 		title: "神印王座​",
-		status: "watching",
+		status: "onhold",
 		category: "anime",
 		rating: 9,
 		cover: "https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc002007j7p5hn1776850944831/260?imageView2/2/w/167/h/233",

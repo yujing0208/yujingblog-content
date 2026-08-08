@@ -143,15 +143,6 @@ const diaryData: DiaryItem[] = [
 		]
 	},
 	{
-		content: "",
-		date: "",
-		images: [],
-		location: "电脑前",
-		mood: "崩溃",
-		tags: [],
-		imgMode: ""
-	},
-	{
 		content: "我无疑是崩溃的",
 		date: "2026-08-07T09:58:00+08:00",
 		images: [
@@ -171,7 +162,7 @@ const diaryData: DiaryItem[] = [
 		location: "",
 		mood: "放松",
 		tags: [
-			"博客更新"
+			"博客搭建"
 		],
 		imgMode: ""
 	}

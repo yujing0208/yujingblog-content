@@ -408,6 +408,26 @@ const localAnimeList: AnimeItem[] = [
 		link: "https://gp.qq.com/main.shtml",
 		progress: "",
 		totalEpisodes: ""
+	},
+	{
+		title: "名侦探柯南",
+		status: "watching",
+		category: "anime",
+		rating: 9.4,
+		cover: "https://i0.hdslb.com/bfs/bangumi/image/38e2a273f528fd01c34f1fc4df0f69c64487efad.png@450w_600h.webp",
+		description: "主角工藤新一原本是一位颇具名声的高中生侦探，在目击黑暗组织的地下交易后，正准备追踪时却被突袭击昏，并被灌下代号为“APTX4869”的不明药物。后来虽然幸免于死，但身体就此缩小为小学时期的模样。之后他化名为江户川柯南，在邻居阿笠博士的建议下，寄住在女友毛利兰的父亲—侦探毛利小五郎家中，继续秘密从事追查黑暗组织的工作，并私下探寻获得解药的管道，希望能够恢复原来新一的样貌。与此同时，柯南凭着自己的推理天份，配合阿笠博士为他发明的道具，帮助毛利小五郎成为出名的大侦探。故事内容当中穿插许多爱情、友情、犯罪、背叛、复仇等情节。",
+		episodes: "1269+",
+		year: "1996",
+		genre: [
+			"漫画改",
+			"推理",
+			"智斗",
+			"悬疑"
+		],
+		studio: "青山刚昌",
+		link: "https://www.bilibili.com/bangumi/media/md28228775",
+		progress: "",
+		totalEpisodes: ""
 	}
 ];
 

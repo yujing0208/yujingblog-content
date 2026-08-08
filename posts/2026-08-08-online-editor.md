@@ -1,21 +1,20 @@
 ---
-title: 给博客加了在线编辑器，改内容再也不用开编辑器了
+title: "给博客加了在线编辑器，改内容再也不用开编辑器了"
 published: 2026-08-08
-description: 给博客加了个浏览器里的在线编辑器：/admin 下按数据类型生成表单，改完暂存、统一推送，一次提交触发部署。记一下它怎么从零上线的，以及背后踩的一个 GitHub API 坑。
-tags: ["在线编辑器", "Mizuki", "博客折腾", "AI"]
-category: 博客更新
+description: "给博客加了个浏览器里的在线编辑器：/admin 下按数据类型生成表单，改完暂存、统一推送，一次提交触发部署。记一下它怎么从零上线的，以及背后踩的一个 GitHub API 坑。"
+tags: [在线编辑器, Mizuki, 博客折腾, AI]
+category: "博客更新"
 draft: false
-aiSummary: 给博客做了个浏览器在线编辑器：按 schema 自动生成表单，改完先暂存再统一推送，一次提交触发部署。顺手记了上线时踩的 GitHub ref 端点单复数坑。
-comment: true
-priority: 
-author: 余京
-hideHomeContent: false
+aiSummary: "给博客做了个浏览器在线编辑器：按 schema 自动生成表单，改完先暂存再统一推送，一次提交触发部署。顺手记了上线时踩的 GitHub ref 端点单复数坑。"
 ---
+
 # 给博客加了在线编辑器，改内容再也不用开编辑器了
 
 之前每次想改点数据——比如给追番列表加一部、友链换张图、公告改句话——都得本地开编辑器、改 `data/*.ts`、commit、push，再等部署。步骤不少，手机上还搞不了。于是我给博客加了个**浏览器里的在线编辑器**，现在直接在网页上点几下就能改。
 
 > 入口在 `/admin/<页面名>-edit`，比如追番是 `/admin/anime-edit`，友链是 `/admin/friends-edit`。从站点导航栏的 logo 进去就能看到入口。
+
+![编辑器入口弹窗](https://img.yujingblog.top/file/1786170701599_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2026-08-08_142559.webp)
 
 ## 它能干啥
 
@@ -24,6 +23,10 @@ hideHomeContent: false
 :::tip
 字段类型挺全的：`string` 文本框、`text` 多行、`number` 数字、`select` 下拉、`tags` 标签、`boolean` 开关、`date` 日期，甚至 `object-list` 嵌套列表。加新数据类型基本就是写一份 schema，不用动前端。
 :::
+
+编辑器会要求输入一个有 `repo` 权限的 GitHub PAT，Token 只存在当前浏览器会话里，关闭页面就清空。
+
+![PAT 验证弹窗](https://img.yujingblog.top/file/1786170722560_image.webp)
 
 ## 暂存 + 统一推送
 
@@ -43,6 +46,10 @@ flowchart LR
     E --> F[推内容仓库]
     F --> G[主仓库同步 + 部署]
 ```
+
+实际的编辑界面长这样，左侧是条目列表，右侧是按 schema 生成的表单：
+
+![日记编辑页](https://img.yujingblog.top/file/1786170705656_%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE_2026-08-08_142709.webp)
 
 ## 背后怎么实现的
 
@@ -76,4 +83,3 @@ flowchart LR
 - 顺手修了一个 `/git/ref` 与 `/git/refs` 的单复数坑。
 
 路过的如果想改自己博客，思路可以照搬；想偷懒的话，这个编辑器本来就是 AI 生成的，问 AI 要一份就行。
-

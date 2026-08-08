@@ -390,9 +390,9 @@ const localAnimeList: AnimeItem[] = [
 			"漫改"
 		],
 		studio: "MAPPA",
-		link: "",
-		progress: "",
-		totalEpisodes: ""
+		link: "https://chainsawman.dog/",
+		progress: 12,
+		totalEpisodes: 12
 	}
 ];
 

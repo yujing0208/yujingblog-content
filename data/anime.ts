@@ -607,21 +607,6 @@ const localAnimeList: AnimeItem[] = [
 		totalEpisodes: ""
 	},
 	{
-		title: "",
-		status: "",
-		category: "",
-		rating: "",
-		cover: "",
-		description: "",
-		episodes: "",
-		year: "",
-		genre: [],
-		studio: "",
-		link: "",
-		progress: "",
-		totalEpisodes: ""
-	},
-	{
 		title: "三角洲行动",
 		status: "dropped",
 		category: "game",

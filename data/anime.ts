@@ -466,6 +466,26 @@ const localAnimeList: AnimeItem[] = [
 		link: "https://www.bilibili.com/bangumi/media/md21086686",
 		progress: "",
 		totalEpisodes: ""
+	},
+	{
+		title: "紫罗兰永恒花园 ",
+		status: "completed",
+		category: "anime",
+		rating: 9.8,
+		cover: "https://i0.hdslb.com/bfs/bangumi/image/6565f297b31fb4a4a0337557033426930c3b88c0.png@450w_600h.webp",
+		description: "某个大陆的、某个时代。大陆南北分割的战争结束了，世界走向了和平。在战争中作为军人的薇尔莉特•伊芙加登，怀抱着对她来说无比重要之人留下的“话语”，离开军队来到了大港口城市。踊跃的人群在排列着煤气灯的街道马路上来来往往地穿梭着。薇尔莉特在街道上找到了“代写书信”的工作。那是根据委托人的想法来组织出相应语言的工作。她直面委托人、触碰着他们内心深处的坦率感情。与此同时，薇尔莉特在记录书信时，渐渐明白那“话语”的含义。",
+		episodes: "2018",
+		year: "13",
+		genre: [
+			"治愈",
+			"励志",
+			"职场",
+			"催泪"
+		],
+		studio: "京都アニメーション",
+		link: "https://www.bilibili.com/bangumi/media/md8892",
+		progress: "",
+		totalEpisodes: ""
 	}
 ];
 

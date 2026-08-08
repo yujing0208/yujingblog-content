@@ -362,7 +362,7 @@ const localAnimeList: AnimeItem[] = [
 		status: "completed",
 		category: "novel",
 		rating: 7.7,
-		cover: "https://bkimg.cdn.bcebos.com/pic/d52a2834349b033b5bb503e2679221d3d539b60017cc?x-bce-process=image/format,f_auto/quality,Q_80/resize,m_lfit,limit_1,h_700",
+		cover: "https://bkimg.cdn.bcebos.com/pic/d52a2834349b033b5bb503e2679221d3d539b60017cc?x-bce-process=image/format,f_auto/quality,Q_70/resize,m_lfit,limit_1,w_536",
 		description: "他以为他将这样度过一生，他以为他始终只是个衰小孩。但是，一封来自卡塞尔学院的录取通知书改变了他的一生。云层里透出神秘的吟唱：你也有神奇的父母，你也有热血的同伴，你的血管里流动着龙族的血液。而你的目标将是 —— 屠龙。",
 		episodes: "5 episodes",
 		year: "2010",

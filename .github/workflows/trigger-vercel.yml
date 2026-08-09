@@ -1,4 +1,11 @@
-﻿name: Trigger Build
+﻿name: Trigger Site Deploy
+
+# 内容仓库 → 通知站点仓库重新部署
+# 触发：push 到 master 分支；或 workflow_dispatch 手动触发
+# 动作：用 GitHub PAT 向站点仓库发送 repository_dispatch（type: deploy-site），
+#       由站点仓库的 Deploy Site workflow 完成构建与部署（只构建一次）。
+# 明文 Deploy Hook 已移除，改用 Secrets：
+#   DISPATCH_TOKEN —— 具有 yujing0208/yujingblog-site 仓库 workflow 触发权限的 GitHub PAT
 
 on:
   push:
@@ -7,9 +14,18 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  trigger:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to Vercel
+      - name: Dispatch deploy to site repo
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+          SITE_REPO: yujing0208/yujingblog-site
         run: |
-          curl -X POST "https://api.vercel.com/v1/integrations/deploy/prj_s44cNpfUAFZSbBgQ6lbrIUrjL2iX/mr4m8L3URJ"
+          curl -f -L \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $DISPATCH_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/$SITE_REPO/dispatches" \
+            -d '{"event_type":"deploy-site"}'

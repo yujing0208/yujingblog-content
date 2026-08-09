@@ -360,6 +360,26 @@ const friendsData: FriendItem[] = [
 			"工具"
 		],
 		id: 16
+	},
+	{
+		title: "GitHub Proxy",
+		imgurl: "https://a.favicon.im/github.akams.cn",
+		desc: "支持 API、Git Clone、Releases、Archive、Gist、Raw 等资源加速下载，提升 GitHub 文件下载体验。",
+		siteurl: "https://github.akams.cn/",
+		tags: [
+			"工具"
+		],
+		id: 17
+	},
+	{
+		title: "GitHub 文件加速",
+		imgurl: "https://a.favicon.im/ghproxy.net",
+		desc: "GitHub文件链接带不带协议头都可以，支持release、archive以及文件，右键复制出来的链接都是符合标准的",
+		siteurl: "https://ghproxy.net/",
+		tags: [
+			"工具"
+		],
+		id: 18
 	}
 ];
 export function getFriendsList(): FriendItem[] {

@@ -350,6 +350,16 @@ const friendsData: FriendItem[] = [
 		tags: [
 			"资源"
 		]
+	},
+	{
+		title: "OpenMediaTools",
+		imgurl: "https://a.favicon.im/openmedia.tools",
+		desc: "免费在线视频、音频、图像PDF和AI工具",
+		siteurl: "https://openmedia.tools/zh/",
+		tags: [
+			"工具"
+		],
+		id: 16
 	}
 ];
 export function getFriendsList(): FriendItem[] {

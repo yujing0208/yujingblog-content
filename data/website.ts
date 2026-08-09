@@ -380,6 +380,16 @@ const friendsData: FriendItem[] = [
 			"工具"
 		],
 		id: 18
+	},
+	{
+		title: "升学E网通 ",
+		imgurl: "https://a.favicon.im/www.ewt360.com",
+		desc: "升学E网通集助学、助考、和升学为一体，是国内领先的高中生综合指导系统，专为高中同学打造的提供学习、助学备考、志愿填报、 …",
+		siteurl: "https://www.ewt360.com",
+		tags: [
+			"学习"
+		],
+		id: 19
 	}
 ];
 export function getFriendsList(): FriendItem[] {

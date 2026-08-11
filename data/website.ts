@@ -1,405 +1,457 @@
-﻿// 友情链接数据配置
-// 用于管理友情链接页面的数据
-import type { FriendItem } from "../types/friends";
-const friendsData: FriendItem[] = [
+﻿// 书签导航数据配置
+// 由站点 /websites 页面读取并按下 category 分组展示。
+// category 取值：dev | project | design | ai | tool | resource
+export interface WebsiteItem {
+	name: string;
+	description: string;
+	url: string;
+	icon: string;
+	color: string;
+	category: "dev" | "project" | "design" | "ai" | "tool" | "resource";
+}
+
+export const websiteData: WebsiteItem[] = [
+	// 开发
 	{
-		id: 1,
-		title: "Mizuki Docs",
-		imgurl: "https://q.qlogo.cn/headimg_dl?dst_uin=3231515355&spec=640&img_type=jpg",
-		desc: "Mizuki User Manual",
-		siteurl: "https://docs.mizuki.mysqil.com",
-		tags: [
-			"技术"
-		]
+		name: "GitHub",
+		description: "全球最大的代码托管平台",
+		url: "https://github.com",
+		icon: "simple-icons:github",
+		color: "#181717",
+		category: "dev",
 	},
 	{
-		id: 2,
-		title: "Vercel",
-		imgurl: "https://ts3.tc.mm.bing.net/th/id/OIP-C.BHToo31Gbbw69wyXq4pqBQAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-		desc: "Develop. Preview. Ship.",
-		siteurl: "https://vercel.com",
-		tags: [
-			"技术"
-		]
+		name: "MDN Web Docs",
+		description: "最权威的 Web 文档",
+		url: "https://developer.mozilla.org",
+		icon: "simple-icons:mdnwebdocs",
+		color: "#000000",
+		category: "dev",
 	},
 	{
-		id: 3,
-		title: "GitHub",
-		imgurl: "https://tse3-mm.cn.bing.net/th/id/OIP-C.Lwbgu4eSpSz4gKe-F_k58gHaHa?w=167&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-		desc: "Where the world builds software",
-		siteurl: "https://github.com",
-		tags: [
-			"技术"
-		]
+		name: "Astro",
+		description: "内容驱动型网站的 Web 框架",
+		url: "https://astro.build",
+		icon: "simple-icons:astro",
+		color: "#BC52EE",
+		category: "dev",
 	},
 	{
-		id: 3,
-		title: "合肥一中电脑社",
-		imgurl: "https://hfyzdns.cn/logo.png",
-		desc: "合肥一中历史最悠久的科技社团之一。 零基础友好 · 技术驱动。从编程入门到 VR 开发，从游戏设计到 AI 实践，打造自由交流、学习、创造的平台。",
-		siteurl: "https://hfyzdns.cn",
-		tags: [
-			"校园"
-		]
+		name: "Svelte",
+		description: "把组件编译成高效原生 JS 的框架",
+		url: "https://svelte.dev",
+		icon: "simple-icons:svelte",
+		color: "#FF3E00",
+		category: "dev",
 	},
 	{
-		id: 4,
-		title: "CloudFlare ImgBed",
-		imgurl: "https://cfbed.sanyue.de/logo.png",
-		desc: "开源文件托管解决方案，安心存取，轻松分享",
-		siteurl: "https://cfbed.sanyue.de",
-		tags: [
-			"技术"
-		]
+		name: "Tailwind CSS",
+		description: "一个功能强大且灵活的 CSS 框架",
+		url: "https://tailwindcss.com",
+		icon: "simple-icons:tailwindcss",
+		color: "#06B6D4",
+		category: "dev",
 	},
 	{
-		id: 5,
-		title: "叮叮猫资源搜索站",
-		imgurl: "https://www.boosds.cn/uploads/image/20260406/5572e4ad14fa6e2579205aa9048d2429.png",
-		desc: "免费分享百万级网盘资源,请输入准确影视名称进行搜索！",
-		siteurl: "https://www.boosds.cn",
-		tags: [
-			"资源"
-		]
+		name: "Cloudflare",
+		description: "为你的站点提供免费防护与加速",
+		url: "https://dash.cloudflare.com",
+		icon: "simple-icons:cloudflare",
+		color: "#F38020",
+		category: "dev",
 	},
 	{
-		id: 6,
-		title: "Twikoo",
-		imgurl: "https://twikoo.js.org/twikoo-logo-home.png",
-		desc: "网站评论系统，简洁、安全、免费",
-		siteurl: "https://twikoo.js.org",
-		tags: [
-			"技术"
-		]
+		name: "Vercel",
+		description: "Develop. Preview. Ship.",
+		url: "https://vercel.com",
+		icon: "simple-icons:vercel",
+		color: "#000000",
+		category: "dev",
 	},
 	{
-		id: 7,
-		title: "LX Music",
-		imgurl: "https://ts1.tc.mm.bing.net/th/id/OIP-C.pxhC07XCuH4CfENun93MqwAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-		desc: "一个免费&开源的音乐查找工具",
-		siteurl: "https://lxmusic.toside.cn",
-		tags: [
-			"资源"
-		]
+		name: "Twikoo",
+		description: "网站评论系统，简洁、安全、免费",
+		url: "https://twikoo.js.org",
+		icon: "simple-icons:github",
+		color: "#6772E5",
+		category: "dev",
 	},
 	{
-		id: 8,
-		title: "蜜蜂图床",
-		imgurl: "https://bee-reg-ab.imagency.cn/p/81985253f7a87ad615ee5ad6fffba283.png",
-		desc: "提供免费、稳定、高速的图片上传与外链服务平台",
-		siteurl: "https://www.beeimg.cn/",
-		tags: [
-			"图床"
-		]
+		name: "Mizuki Docs",
+		description: "Mizuki 博客主题使用手册",
+		url: "https://docs.mizuki.mysqil.com",
+		icon: "material-symbols:menu-book",
+		color: "#1769AA",
+		category: "dev",
+	},
+
+	// 项目
+	{
+		name: "Firefly",
+		description: "清晰美观的 Astro 个人博客主题模板",
+		url: "https://github.com/Moelten/astro-theme-firefly",
+		icon: "simple-icons:astro",
+		color: "#BC52EE",
+		category: "project",
+	},
+
+	// 设计
+	{
+		name: "Iconify",
+		description: "开源图标集的家园",
+		url: "https://iconify.design",
+		icon: "simple-icons:iconify",
+		color: "#1769AA",
+		category: "design",
 	},
 	{
-		id: 9,
-		title: "Cloudflare",
-		imgurl: "https://www.zhanlian.net/wp-content/uploads/2022/10/36e0f-www.cloudflare.com.png",
-		desc: "为您的网站提供免费的防护和加速",
-		siteurl: "https://dash.cloudflare.com/",
-		tags: [
-			"技术"
-		]
+		name: "iconfont",
+		description: "阿里巴巴矢量图标库",
+		url: "https://www.iconfont.cn",
+		icon: "simple-icons:alibabadotcom",
+		color: "#FF6A00",
+		category: "design",
 	},
 	{
-		id: 10,
-		title: "合肥市第一中学",
-		imgurl: "https://tse2-mm.cn.bing.net/th/id/OIP-C.c7j-78QvJc2VrZ-j1t80FAAAAA?w=154&h=155&c=7&r=0&o=7&pid=1.7&rm=3",
-		desc: "怀天下抱负，做未来主人。",
-		siteurl: "http://www.hfyz.net/sy/index.html",
-		tags: [
-			"校园"
-		]
+		name: "Favicon.im",
+		description: "即时网站图标获取器",
+		url: "https://favicon.im/zh",
+		icon: "material-symbols:image",
+		color: "#4F46E5",
+		category: "design",
 	},
 	{
-		id: 11,
-		title: "PigHub",
-		imgurl: "https://www.pighub.top/images/%E7%88%B1%E4%B8%8A%E4%B8%80%E5%8F%AA%E5%B0%8F%E7%8C%AA%EF%BC%9F.jpg",
-		desc: "最大的猪猪图片网站",
-		siteurl: "https://www.pighub.top/",
-		tags: [
-			"娱乐"
-		]
+		name: "One Page Love",
+		description: "一页网站灵感，精心策划",
+		url: "https://onepagelove.com",
+		icon: "material-symbols:link",
+		color: "#0EA5E9",
+		category: "design",
+	},
+
+	// AI
+	{
+		name: "DeepSeek",
+		description: "深度求索，探索未至之境",
+		url: "https://www.deepseek.com",
+		icon: "simple-icons:deepseek",
+		color: "#4D6BFE",
+		category: "ai",
 	},
 	{
-		id: 12,
-		title: "Z-Library",
-		imgurl: "https://tse3-mm.cn.bing.net/th/id/OIP-C.YrNMwDyCI7RRbq5_NIVNhQAAAA?w=131&h=150&c=7&r=0&o=7&pid=1.7&rm=3",
-		desc: "世界上最大的电子图书馆。自由访问知识和文化。",
-		siteurl: "https://zh.kid1412.by/",
-		tags: [
-			"资源"
-		]
+		name: "豆包",
+		description: "字节跳动旗下 AI 智能助手",
+		url: "https://www.doubao.com",
+		icon: "material-symbols:smart-toy",
+		color: "#3B5BFF",
+		category: "ai",
 	},
 	{
-		id: 13,
-		title: "GitHub加速",
-		imgurl: "https://weavatar.com/avatar/50abbf204520fa0a98fdaab4bc98a10f",
-		desc: "将 GitHub 链接转换为多区域加速链接，解决 GitHub 访问慢、下载失败等问题",
-		siteurl: "https://gh-proxy.com/",
-		tags: [
-			"工具"
-		]
+		name: "千问",
+		description: "阿里 Qwen 最新模型体验",
+		url: "https://www.qianwen.com",
+		icon: "material-symbols:smart-toy",
+		color: "#615CED",
+		category: "ai",
 	},
 	{
-		id: 14,
-		title: "YuJing ImgHub",
-		imgurl: "https://img.yujingblog.top/file/1785690853054_logo.png",
-		desc: "我的个人图床",
-		siteurl: "https://img.yujingblog.top",
-		tags: [
-			"图床"
-		]
+		name: "OpenAI",
+		description: "ChatGPT 与先进 AI 研究",
+		url: "https://openai.com",
+		icon: "simple-icons:openai",
+		color: "#412991",
+		category: "ai",
 	},
 	{
-		id: 15,
-		title: "哲风壁纸",
-		imgurl: "https://haowallpaper.com/favicon.ico",
-		desc: "免费4K高清壁纸-电脑背景图片-Mac壁纸网站",
-		siteurl: "https://haowallpaper.com/",
-		tags: [
-			"资源"
-		]
+		name: "Claude",
+		description: "Anthropic 出品的 AI 助手",
+		url: "https://claude.ai",
+		icon: "simple-icons:claude",
+		color: "#D97757",
+		category: "ai",
 	},
 	{
-		title: "DeepSeek | 深度求索",
-		imgurl: "https://a.favicon.im/www.deepseek.com",
-		desc: "deepseek探索未至之境",
-		siteurl: "https://www.deepseek.com/",
-		tags: [
-			"AI"
-		]
+		name: "skills mp",
+		description: "看人们正在教 AI 智能体做些什么",
+		url: "https://skillsmp.com/zh",
+		icon: "material-symbols:smart-toy",
+		color: "#10A37F",
+		category: "ai",
 	},
 	{
-		title: "Favicon.im: 即时网站图标获取器",
-		imgurl: "https://a.favicon.im/favicon.im",
-		desc: "Favicon.im是一个简单高效的服务，允许您获取任何网站的图标（网站图标）。 只需提供域名，我们就 …",
-		siteurl: "https://favicon.im/zh",
-		tags: [
-			"工具"
-		]
+		name: "PromptPilot",
+		description: "火山引擎推出的提示词优化平台",
+		url: "https://promptpilot.volcengine.com",
+		icon: "material-symbols:smart-toy",
+		color: "#1366EC",
+		category: "ai",
 	},
 	{
-		title: "豆包",
-		imgurl: "https://a.favicon.im/www.doubao.com",
-		desc: "豆包 - 字节跳动旗下 AI 智能助手",
-		siteurl: "https://www.doubao.com",
-		tags: [
-			"AI"
-		]
+		name: "Imagio",
+		description: "用文字描述生成或编辑图片",
+		url: "https://image.oblivionis.net",
+		icon: "material-symbols:image",
+		color: "#8B5CF6",
+		category: "ai",
+	},
+
+	// 工具
+	{
+		name: "TinyPNG",
+		description: "在线压缩 PNG / JPEG 图片",
+		url: "https://tinypng.com",
+		icon: "simple-icons:figma",
+		color: "#F24E1E",
+		category: "tool",
 	},
 	{
-		title: "千问",
-		imgurl: "https://a.favicon.im/www.qianwen.com",
-		desc: "千问-阿里Qwen最新模型体验 - 界面简洁，交互流畅清爽",
-		siteurl: "https://www.qianwen.com/",
-		tags: [
-			"AI"
-		]
+		name: "Squoosh",
+		description: "Google 出品的图片压缩与格式转换",
+		url: "https://squoosh.app",
+		icon: "simple-icons:google",
+		color: "#4285F4",
+		category: "tool",
 	},
 	{
-		title: "skills mp",
-		imgurl: "https://a.favicon.im/skillsmp.com",
-		desc: "看人们正在教 Claude、Codex 和其他 AI 智能体做些什么。",
-		siteurl: "https://skillsmp.com/zh",
-		tags: [
-			"AI工具"
-		]
+		name: "Carbon",
+		description: "把代码片段生成漂亮的图片",
+		url: "https://carbon.now.sh",
+		icon: "simple-icons:codepen",
+		color: "#000000",
+		category: "tool",
 	},
 	{
-		title: "图床 | StarDots",
-		imgurl: "https://a.favicon.im/dashboard.stardots.io",
-		desc: "图像云存储。\n图片托管，让你的图片公开访问。\n安全数据，完全免费。",
-		siteurl: "https://dashboard.stardots.io/",
-		tags: [
-			"图床"
-		]
+		name: "GitHub 加速",
+		description: "多区域加速，解决 GitHub 访问慢、下载失败",
+		url: "https://gh-proxy.com",
+		icon: "simple-icons:github",
+		color: "#181717",
+		category: "tool",
 	},
 	{
-		title: "PromptPilot",
-		imgurl: "https://a.favicon.im/promptpilot.volcengine.com",
-		desc: "PromptPilot是火山引擎推出的AI提示词优化平台，能将用户模糊的想法转化为AI能精准执行的专业指令。本文全面 …",
-		siteurl: "https://promptpilot.volcengine.com/",
-		tags: [
-			"AI工具"
-		]
+		name: "GitHub Proxy",
+		description: "支持 API、Clone、Releases 等资源加速下载",
+		url: "https://github.akams.cn",
+		icon: "simple-icons:github",
+		color: "#181717",
+		category: "tool",
 	},
 	{
-		title: "Iconify",
-		imgurl: "https://a.favicon.im/icon-sets.iconify.design",
-		desc: "开源图标集的家园",
-		siteurl: "https://icon-sets.iconify.design/",
-		tags: [
-			"前端组件"
-		]
+		name: "GitHub 文件加速",
+		description: "支持 release、archive 与文件加速",
+		url: "https://ghproxy.net",
+		icon: "simple-icons:github",
+		color: "#181717",
+		category: "tool",
 	},
 	{
-		title: "Imagio",
-		imgurl: "https://a.favicon.im/image.oblivionis.net",
-		desc: "描述你想生成的图片，或附加图片进行编辑……",
-		siteurl: "https://image.oblivionis.net/",
-		tags: [
-			"AI工具"
-		]
+		name: "坐标拾取器",
+		description: "高德地图获取精确经纬度坐标",
+		url: "https://lbs.amap.com/tools/picker",
+		icon: "material-symbols:link",
+		color: "#06B66C",
+		category: "tool",
 	},
 	{
-		title: "One Page Love",
-		imgurl: "https://a.favicon.im/onepagelove.com",
-		desc: "一页网站，精心策划。",
-		siteurl: "https://onepagelove.com/",
-		tags: [
-			"前端组件"
-		]
+		name: "免费在线抠图",
+		description: "无需上传的在线图像抠图工具",
+		url: "https://www.koukoutu.com/removebgtool/all",
+		icon: "material-symbols:image",
+		color: "#F97316",
+		category: "tool",
 	},
 	{
-		title: "坐标拾取器 | 高德地图API",
-		imgurl: "https://a.favicon.im/lbs.amap.com",
-		desc: "获取足迹页面所需的精确经纬",
-		siteurl: "https://lbs.amap.com/tools/picker",
-		tags: [
-			"工具"
-		]
+		name: "imagesTool",
+		description: "无需上传文件也可在线处理图片",
+		url: "https://imagestool.com/zh_CN",
+		icon: "material-symbols:image",
+		color: "#0EA5E9",
+		category: "tool",
 	},
 	{
-		title: "AGE动漫",
-		imgurl: "https://a.favicon.im/www.agedm.io",
-		desc: "免费动漫资源聚合站",
-		siteurl: "https://www.agedm.io/",
-		tags: [
-			"资源"
-		]
+		name: "Itdog 在线测速",
+		description: "在线网络工具箱，网站测速",
+		url: "https://www.itdog.cn",
+		icon: "material-symbols:cloud",
+		color: "#2563EB",
+		category: "tool",
 	},
 	{
-		title: "MANHWATOP",
-		imgurl: "https://a.favicon.im/manhwatop.com",
-		desc: "收录漫画资源",
-		siteurl: "https://manhwatop.com/",
-		tags: [
-			"资源"
-		]
+		name: "免费在线视频压缩",
+		description: "支持 MP4、MOV、WebM 等格式压缩",
+		url: "https://videocompress.io/zh-cn",
+		icon: "material-symbols:cloud",
+		color: "#7C3AED",
+		category: "tool",
 	},
 	{
-		title: "免费在线抠图",
-		imgurl: "https://a.favicon.im/www.koukoutu.com",
-		desc: "无需上传的在线图像抠图工具",
-		siteurl: "https://www.koukoutu.com/removebgtool/all",
-		tags: [
-			"工具"
-		]
+		name: "OpenMediaTools",
+		description: "免费在线视频、音频、图像与 PDF 工具",
+		url: "https://openmedia.tools/zh",
+		icon: "material-symbols:cloud",
+		color: "#059669",
+		category: "tool",
 	},
 	{
-		title: "imagesTool",
-		imgurl: "https://a.favicon.im/imagestool.com",
-		desc: "无需上传文件也可在线处理图片",
-		siteurl: "https://imagestool.com/zh_CN/",
-		tags: [
-			"工具"
-		]
+		name: "小小 API",
+		description: "专业的 API 服务平台",
+		url: "https://xxapi.cn",
+		icon: "material-symbols:api",
+		color: "#DC2626",
+		category: "tool",
 	},
 	{
-		title: "Itdog-在线测速",
-		imgurl: "https://a.favicon.im/www.itdog.cn",
-		desc: "在线网络工具箱，网站测速",
-		siteurl: "https://www.itdog.cn/",
-		tags: [
-			"工具"
-		]
+		name: "UApiPro",
+		description: "免费、稳定、快速的公共 API",
+		url: "https://uapis.cn",
+		icon: "material-symbols:api",
+		color: "#2563EB",
+		category: "tool",
+	},
+
+	// 资源
+	{
+		name: "Firefly Docs",
+		description: "Firefly 主题模板文档",
+		url: "https://firefly.cuteleaf.cn/docs",
+		icon: "simple-icons:astro",
+		color: "#BC52EE",
+		category: "resource",
 	},
 	{
-		title: "免费在线视频压缩工具",
-		imgurl: "https://a.favicon.im/videocompress.io",
-		desc: "免费在线视频压缩工具，支持 MP4、MOV、WebM 等格式。免费在线压缩视频文件大小，在画质和体积之间取得合适平衡。无需安装软件，上传后即可压缩下载。",
-		siteurl: "https://videocompress.io/zh-cn",
-		tags: [
-			"工具"
-		]
+		name: "夏夜流萤",
+		description: "飞萤之火自无梦的长夜亮起",
+		url: "https://firefly.cuteleaf.cn",
+		icon: "material-symbols:local-fire-department",
+		color: "#F59E0B",
+		category: "resource",
 	},
 	{
-		title: "Qwerty Learner",
-		imgurl: "https://a.favicon.im/qwerty.kaiyi.cool",
-		desc: "键盘工作者单词记忆软件",
-		siteurl: "https://qwerty.kaiyi.cool/",
-		tags: [
-			"学习"
-		]
+		name: "AGE 动漫",
+		description: "免费动漫资源聚合站",
+		url: "https://www.agedm.io",
+		icon: "material-symbols:link",
+		color: "#EC4899",
+		category: "resource",
 	},
 	{
-		title: "小小API",
-		imgurl: "https://a.favicon.im/xxapi.cn",
-		desc: "小小API-专业的API服务平台",
-		siteurl: "https://xxapi.cn/",
-		tags: [
-			"API"
-		]
+		name: "MANHWATOP",
+		description: "收录漫画资源",
+		url: "https://manhwatop.com",
+		icon: "material-symbols:menu-book",
+		color: "#F43F5E",
+		category: "resource",
 	},
 	{
-		title: " UApiPro",
-		imgurl: "https://a.favicon.im/uapis.cn",
-		desc: "免费、稳定、快速的公共 API",
-		siteurl: "https://uapis.cn/",
-		tags: [
-			"API"
-		]
+		name: "Z-Library",
+		description: "世界上最大的电子图书馆",
+		url: "https://zh.kid1412.by",
+		icon: "material-symbols:menu-book",
+		color: "#1D4ED8",
+		category: "resource",
 	},
 	{
-		title: "Emojiall",
-		imgurl: "https://a.favicon.im/www.emojiall.com",
-		desc: "Emoji大全",
-		siteurl: "https://www.emojiall.com/zh-hans",
-		tags: [
-			"资源"
-		]
+		name: "哲风壁纸",
+		description: "免费 4K 高清壁纸网站",
+		url: "https://haowallpaper.com",
+		icon: "material-symbols:image",
+		color: "#0EA5E9",
+		category: "resource",
 	},
 	{
-		title: "OpenMediaTools",
-		imgurl: "https://a.favicon.im/openmedia.tools",
-		desc: "免费在线视频、音频、图像PDF和AI工具",
-		siteurl: "https://openmedia.tools/zh/",
-		tags: [
-			"工具"
-		],
-		id: 16
+		name: "Emojiall",
+		description: "Emoji 大全",
+		url: "https://www.emojiall.com/zh-hans",
+		icon: "material-symbols:link",
+		color: "#F59E0B",
+		category: "resource",
 	},
 	{
-		title: "GitHub Proxy",
-		imgurl: "https://a.favicon.im/github.akams.cn",
-		desc: "支持 API、Git Clone、Releases、Archive、Gist、Raw 等资源加速下载，提升 GitHub 文件下载体验。",
-		siteurl: "https://github.akams.cn/",
-		tags: [
-			"工具"
-		],
-		id: 17
+		name: "叮叮猫资源搜索",
+		description: "免费分享百万级网盘资源",
+		url: "https://www.boosds.cn",
+		icon: "material-symbols:link",
+		color: "#16A34A",
+		category: "resource",
 	},
 	{
-		title: "GitHub 文件加速",
-		imgurl: "https://a.favicon.im/ghproxy.net",
-		desc: "GitHub文件链接带不带协议头都可以，支持release、archive以及文件，右键复制出来的链接都是符合标准的",
-		siteurl: "https://ghproxy.net/",
-		tags: [
-			"工具"
-		],
-		id: 18
+		name: "LX Music",
+		description: "免费开源的音乐查找工具",
+		url: "https://lxmusic.toside.cn",
+		icon: "material-symbols:music-note",
+		color: "#DC2626",
+		category: "resource",
 	},
 	{
-		title: "升学E网通 ",
-		imgurl: "https://a.favicon.im/www.ewt360.com",
-		desc: "升学E网通集助学、助考、和升学为一体，是国内领先的高中生综合指导系统，专为高中同学打造的提供学习、助学备考、志愿填报、 …",
-		siteurl: "https://www.ewt360.com",
-		tags: [
-			"学习"
-		],
-		id: 19
-	}
+		name: "蜜蜂图床",
+		description: "免费、稳定、高速的图片外链服务",
+		url: "https://www.beeimg.cn",
+		icon: "material-symbols:image",
+		color: "#F59E0B",
+		category: "resource",
+	},
+	{
+		name: "YuJing ImgHub",
+		description: "我的个人图床",
+		url: "https://img.yujingblog.top",
+		icon: "material-symbols:image",
+		color: "#0EA5E9",
+		category: "resource",
+	},
+	{
+		name: "StarDots 图床",
+		description: "图像云存储，图片托管",
+		url: "https://dashboard.stardots.io",
+		icon: "material-symbols:image",
+		color: "#8B5CF6",
+		category: "resource",
+	},
+	{
+		name: "CloudFlare ImgBed",
+		description: "开源文件托管解决方案",
+		url: "https://cfbed.sanyue.de",
+		icon: "material-symbols:image",
+		color: "#F38020",
+		category: "resource",
+	},
+	{
+		name: "PigHub",
+		description: "最大的猪猪图片网站",
+		url: "https://www.pighub.top",
+		icon: "material-symbols:image",
+		color: "#F472B6",
+		category: "resource",
+	},
+	{
+		name: "升学 E 网通",
+		description: "高中生综合指导与备考系统",
+		url: "https://www.ewt360.com",
+		icon: "material-symbols:school",
+		color: "#2563EB",
+		category: "resource",
+	},
+	{
+		name: "Qwerty Learner",
+		description: "键盘工作者单词记忆软件",
+		url: "https://qwerty.kaiyi.cool",
+		icon: "material-symbols:school",
+		color: "#0EA5E9",
+		category: "resource",
+	},
+	{
+		name: "合肥一中电脑社",
+		description: "零基础友好 · 技术驱动的校园科技社团",
+		url: "https://hfyzdns.cn",
+		icon: "material-symbols:school",
+		color: "#16A34A",
+		category: "resource",
+	},
+	{
+		name: "合肥市第一中学",
+		description: "怀天下抱负，做未来主人",
+		url: "http://www.hfyz.net/sy/index.html",
+		icon: "material-symbols:school",
+		color: "#DC2626",
+		category: "resource",
+	},
 ];
-export function getFriendsList(): FriendItem[] {
-	return friendsData;
-}
-export function getShuffledFriendsList(): FriendItem[] {
-	const shuffled = [...friendsData];
-	for (let i = shuffled.length - 1; i > 0; i--) {
-		const j = Math.floor(Math.random() * (i + 1));
-		[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-	}
-	return shuffled;
-}

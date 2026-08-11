@@ -215,6 +215,20 @@ const diaryData: DiaryItem[] = [
 		],
 		imgMode: "",
 		id: 17
+	},
+	{
+		content: "记录，第一次被攻击，虽然只是储存xxs，我只限输入30字，想着应该拿不到我的Cookie就没事。就今天输密码半天进不去，我还真以为拿到了，一检查才发现是之前误删worker，变量跟着丢了，忘加了😒\n但因为textContent 是空的或和原文不一致，管理员还删不掉，也确实被折腾了😅",
+		date: "2026-08-11T15:41:00+08:00",
+		images: [
+			"https://img.yujingblog.top/file/1786432856824_image.png"
+		],
+		location: "",
+		mood: "震惊",
+		tags: [
+			"技术"
+		],
+		imgMode: "",
+		id: 18
 	}
 ];
 

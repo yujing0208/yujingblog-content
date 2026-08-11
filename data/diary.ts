@@ -227,7 +227,7 @@ const diaryData: DiaryItem[] = [
 		tags: [
 			"技术"
 		],
-		imgMode: "",
+		imgMode: "mode-fill",
 		id: 18
 	}
 ];

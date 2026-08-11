@@ -1,8 +1,7 @@
 ---
-title: "关于我"
-description: "YuJing 的个人介绍"
+title: 关于我
+description: YuJing 的个人介绍
 ---
-
 <div class="flex flex-col items-center text-center py-6">
   <img src="/favicon/avatar-icon.png" alt="YuJing" class="w-24 h-24 rounded-full shadow-lg mb-4" />
   <h1 class="text-3xl font-bold">👋 你好，我是余京</h1>
@@ -37,3 +36,4 @@ description: "YuJing 的个人介绍"
 关于此博客模板
 
 ::github{repo="LyraVoid/Mizuki"}
+

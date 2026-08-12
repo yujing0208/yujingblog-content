@@ -24,5 +24,21 @@ export const footprintsData = [
 		markerColor: "forest",
 		url: "",
 		urlLabel: ""
+	},
+	{
+		name: "北京丰台站",
+		coordinates: [
+			116.298604,
+			39.857171
+		],
+		categories: [],
+		date: "",
+		description: "到北京了",
+		photos: [
+			"https://img.yujingblog.top/file/1786573213405_IMG_20260813_061256.jpg"
+		],
+		markerColor: "sunset",
+		url: "",
+		urlLabel: ""
 	}
 ];

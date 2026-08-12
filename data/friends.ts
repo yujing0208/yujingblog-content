@@ -109,6 +109,16 @@ const friendsData: FriendItem[] = [
 		tags: [
 			"博客"
 		]
+	},
+	{
+		title: "合肥一中电脑社",
+		imgurl: "https://a.favicon.im/hfyzdns.cn",
+		desc: "零基础友好 · 技术驱动的校园科技社团",
+		siteurl: "https://hfyzdns.cn",
+		tags: [
+			"社团"
+		],
+		id: 16
 	}
 ];
 export function getFriendsList(): FriendItem[] {

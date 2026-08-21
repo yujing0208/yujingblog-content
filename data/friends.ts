@@ -34,10 +34,10 @@ const friendsData: FriendItem[] = [
 	},
 	{
 		id: 4,
-		title: "山羊快车Blog",
+		title: "羊角快车Blog",
 		imgurl: "https://r2page.jiaoblog.dpdns.org/images/aebcb8f461af86e7df331bee79fa5d0953dbaeed.png",
 		desc: "发布各种白嫖资源/实用教程",
-		siteurl: "https://blog.xiaowang233.top",
+		siteurl: "https://jiaoblog.dpdns.org/",
 		tags: [
 			"博客"
 		]
@@ -68,16 +68,6 @@ const friendsData: FriendItem[] = [
 		imgurl: "https://blog.pljzy.top/_astro/logo.BxIxyJV1_Z19cEQW.webp",
 		desc: "一个技术探索与分享的平台",
 		siteurl: "https://blog.pljzy.top/",
-		tags: [
-			"博客"
-		]
-	},
-	{
-		id: 12,
-		title: "谶的生活记",
-		imgurl: "https://blog.fohok.xin/wp-content/uploads/2026/04/wp-17708563798823983127499835001104525740135945006403.png",
-		desc: "生活就像一杯茶,细品都是好",
-		siteurl: "https://blog.fohok.xin/",
 		tags: [
 			"博客"
 		]

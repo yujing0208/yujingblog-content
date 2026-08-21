@@ -16,6 +16,18 @@ export interface DiaryItem {
 // 日记数据
 const diaryData: DiaryItem[] = [
 	{
+		content: "I ‘m back",
+		date: "2026-08-13T06:58:01+08:00",
+		images: [],
+		location: "北京",
+		mood: "",
+		tags: [
+			"日常"
+		],
+		imgMode: "",
+		id: 19
+	},
+	{
 		content: "记录，第一次被攻击，虽然只是储存xxs，我只限输入30字，想着应该拿不到我的Cookie就没事。就今天输密码半天进不去，我还真以为拿到了，一检查才发现是之前误删worker，变量跟着丢了，忘加了😒\n但因为textContent 是空的或和原文不一致，管理员还删不掉，也确实被折腾了😅",
 		date: "2026-08-11T15:41:00+08:00",
 		images: [
@@ -231,16 +243,29 @@ const diaryData: DiaryItem[] = [
 		]
 	},
 	{
-		content: "I ‘m back",
-		date: "2026-08-13T06:58:01+08:00",
-		images: [],
+		content: "乱逛，累死了",
+		date: "2026-08-17T20:46:26+08:00",
+		images: [
+			"https://img.yujingblog.top/file/1787316011003_IMG_20260817_200046.webp",
+			"https://img.yujingblog.top/file/1787316016673_IMG_20260817_195421.webp",
+			"https://img.yujingblog.top/file/1787316026777_IMG_20260817_191235.webp",
+			"https://img.yujingblog.top/file/1787316023832_IMG_20260817_192444.webp",
+			"https://img.yujingblog.top/file/1787316023227_IMG_20260817_200628.webp",
+			"https://img.yujingblog.top/file/1787316028896_IMG_20260817_194739.webp",
+			"https://img.yujingblog.top/file/1787316029763_IMG_20260817_193649.webp",
+			"https://img.yujingblog.top/file/1787316033318_IMG_20260817_151032.webp",
+			"https://img.yujingblog.top/file/1787316041611_IMG_20260817_160510.webp",
+			"https://img.yujingblog.top/file/1787316043847_IMG_20260817_161526.webp",
+			"https://img.yujingblog.top/file/1787316039034_IMG_20260821_180913.webp",
+			"https://img.yujingblog.top/file/1787316041585_IMG_20260817_183213.webp"
+		],
 		location: "北京",
-		mood: "",
+		mood: "累死",
 		tags: [
 			"日常"
 		],
-		imgMode: "",
-		id: 19
+		imgMode: "mode-grid",
+		id: 20
 	}
 ];
 

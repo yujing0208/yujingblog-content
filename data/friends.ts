@@ -109,6 +109,16 @@ const friendsData: FriendItem[] = [
 			"社团"
 		],
 		id: 16
+	},
+	{
+		title: "Jackの宝藏之地",
+		imgurl: "https://www.treasureland.top/avatar.jpg",
+		desc: "在编程、AI、Agent开发、旅游等领域深耕的男大.最近处于找实习和Vibe coding中",
+		siteurl: "https://www.treasureland.top/",
+		tags: [
+			"博客"
+		],
+		id: 17
 	}
 ];
 export function getFriendsList(): FriendItem[] {

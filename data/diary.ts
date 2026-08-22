@@ -16,6 +16,31 @@ export interface DiaryItem {
 // 日记数据
 const diaryData: DiaryItem[] = [
 	{
+		content: "乱逛，累死了",
+		date: "2026-08-17T20:46:26+08:00",
+		images: [
+			"https://img.yujingblog.top/file/1787316011003_IMG_20260817_200046.webp",
+			"https://img.yujingblog.top/file/1787316016673_IMG_20260817_195421.webp",
+			"https://img.yujingblog.top/file/1787316026777_IMG_20260817_191235.webp",
+			"https://img.yujingblog.top/file/1787316023832_IMG_20260817_192444.webp",
+			"https://img.yujingblog.top/file/1787316023227_IMG_20260817_200628.webp",
+			"https://img.yujingblog.top/file/1787316028896_IMG_20260817_194739.webp",
+			"https://img.yujingblog.top/file/1787316029763_IMG_20260817_193649.webp",
+			"https://img.yujingblog.top/file/1787316033318_IMG_20260817_151032.webp",
+			"https://img.yujingblog.top/file/1787316041611_IMG_20260817_160510.webp",
+			"https://img.yujingblog.top/file/1787316043847_IMG_20260817_161526.webp",
+			"https://img.yujingblog.top/file/1787316039034_IMG_20260821_180913.webp",
+			"https://img.yujingblog.top/file/1787316041585_IMG_20260817_183213.webp"
+		],
+		location: "北京",
+		mood: "累死",
+		tags: [
+			"日常"
+		],
+		imgMode: "mode-grid",
+		id: 20
+	},
+	{
 		content: "I ‘m back",
 		date: "2026-08-13T06:58:01+08:00",
 		images: [],
@@ -243,29 +268,32 @@ const diaryData: DiaryItem[] = [
 		]
 	},
 	{
-		content: "乱逛，累死了",
-		date: "2026-08-17T20:46:26+08:00",
+		content: "顺为凡，逆为仙。仙逆！\n攒了好多集，直接爽看",
+		date: "2026-08-22T21:10:12+08:00",
 		images: [
-			"https://img.yujingblog.top/file/1787316011003_IMG_20260817_200046.webp",
-			"https://img.yujingblog.top/file/1787316016673_IMG_20260817_195421.webp",
-			"https://img.yujingblog.top/file/1787316026777_IMG_20260817_191235.webp",
-			"https://img.yujingblog.top/file/1787316023832_IMG_20260817_192444.webp",
-			"https://img.yujingblog.top/file/1787316023227_IMG_20260817_200628.webp",
-			"https://img.yujingblog.top/file/1787316028896_IMG_20260817_194739.webp",
-			"https://img.yujingblog.top/file/1787316029763_IMG_20260817_193649.webp",
-			"https://img.yujingblog.top/file/1787316033318_IMG_20260817_151032.webp",
-			"https://img.yujingblog.top/file/1787316041611_IMG_20260817_160510.webp",
-			"https://img.yujingblog.top/file/1787316043847_IMG_20260817_161526.webp",
-			"https://img.yujingblog.top/file/1787316039034_IMG_20260821_180913.webp",
-			"https://img.yujingblog.top/file/1787316041585_IMG_20260817_183213.webp"
+			"https://img.yujingblog.top/file/1787403796712_1040g3k031r84vr9n7okg5n21kcn1ke2jpgkrppo.webp",
+			"https://img.yujingblog.top/file/1787403805491_1040g3k831r84vrq8nucg5n21kcn1ke2jfgjr5k8.webp",
+			"https://img.yujingblog.top/file/1787403813022_1040g3k831r84vrq8nud05n21kcn1ke2jvb08meo.webp",
+			"https://img.yujingblog.top/file/1787403825717_1040g3k031r84vr9n7of05n21kcn1ke2j9sng728.webp",
+			"https://img.yujingblog.top/file/1787403823527_1040g3k831r84vrq8nudg5n21kcn1ke2j5tugmv8.webp",
+			"https://img.yujingblog.top/file/1787403833742_1040g3k031r84vr9n7oig5n21kcn1ke2jrav72t8.webp",
+			"https://img.yujingblog.top/file/1787403849694_1040g3k031r84vr9n7oj05n21kcn1ke2jvuee2vg.webp",
+			"https://img.yujingblog.top/file/1787403871249_1040g3k031qljninb7u2g5n2unaekn830be2l5mo.webp",
+			"https://img.yujingblog.top/file/1787403876015_1040g3k031qljninb7u305n2unaekn830n7slrg8.webp",
+			"https://img.yujingblog.top/file/1787403895740_1040g3k031qljninb7u005n2unaekn8300lsnes8.webp",
+			"https://img.yujingblog.top/file/1787403901955_1040g3k031qljninb7u5g5n2unaekn8305avodvo.webp",
+			"https://img.yujingblog.top/file/1787403909695_1040g3k031qljninb7u6g5n2unaekn8305ndja0g.webp",
+			"https://img.yujingblog.top/file/1787403916613_1040g3k031qljninb7u205n2unaekn830ehhsaeo.webp",
+			"https://img.yujingblog.top/file/1787403914289_1040g3k0320oi1hcpm20g4aluobtg7bmh8q5uk28.webp",
+			"https://img.yujingblog.top/file/1787403923978_1040g3k031qljninb7u605n2unaekn830fv4fl2o.webp"
 		],
-		location: "北京",
-		mood: "累死",
+		location: "门头沟",
+		mood: "爽",
 		tags: [
 			"日常"
 		],
-		imgMode: "mode-grid",
-		id: 20
+		imgMode: "mode-mid",
+		id: 21
 	}
 ];
 

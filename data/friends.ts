@@ -119,6 +119,16 @@ const friendsData: FriendItem[] = [
 			"博客"
 		],
 		id: 17
+	},
+	{
+		title: "UpXuu's blog",
+		imgurl: "https://upxuu.com/images/me.jpg",
+		desc: "逐光而上",
+		siteurl: "https://upxuu.com",
+		tags: [
+			"博客"
+		],
+		id: 18
 	}
 ];
 export function getFriendsList(): FriendItem[] {

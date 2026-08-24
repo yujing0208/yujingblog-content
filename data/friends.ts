@@ -129,6 +129,16 @@ const friendsData: FriendItem[] = [
 			"博客"
 		],
 		id: 18
+	},
+	{
+		title: "他说",
+		imgurl: "https://090909.top/assets/images/logo.ico",
+		desc: "梁栋烨的博客网站。",
+		siteurl: "https://090909.top/",
+		tags: [
+			"博客"
+		],
+		id: 19
 	}
 ];
 export function getFriendsList(): FriendItem[] {

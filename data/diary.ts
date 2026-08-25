@@ -370,17 +370,7 @@ const diaryData: DiaryItem[] = [
 		],
 		imgMode: "",
 		id: 24
-	},
-	{
-		content: "",
-		date: "",
-		images: [],
-		location: "",
-		mood: "",
-		tags: [],
-		imgMode: "",
-		id: 27
-	}
+	},	
 ];
 
 // 获取日记列表（按时间倒序）

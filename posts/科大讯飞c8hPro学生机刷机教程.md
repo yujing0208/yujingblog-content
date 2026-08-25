@@ -1,9 +1,9 @@
 ---
 title: 科大讯飞c8hPro学生机刷机教程
 published: 2026-07-30
-pinned: false
+pinned: true
 description: 没错，就是学校发的畅言智慧课堂平板，在此提供保姆级刷机教程，包教包会
-tags: [刷机, 教程]
+tags: ["刷机", "教程"]
 category: 教程
 licenseName: Unlicensed
 author: 余京
@@ -11,8 +11,11 @@ draft: false
 date: 2026-07-29
 pubDate: 2026-07-29
 permalink: 刷机教程
-aiSummary: "分享iFlytek C8hPro刷机全过程，解BL锁加刷GSI，风险高需谨慎。备份千万要做，手滑可就救不回来了。"
+aiSummary: 分享iFlytek C8hPro刷机全过程，解BL锁加刷GSI，风险高需谨慎。备份千万要做，手滑可就救不回来了。
+comment: true
+hideHomeContent: false
 ---
+
 # iFlytek-C8hPro-Crack
 ---
 关于iFlytek C8hPro平板刷机操作的一些研究，此笔记来源于Github上部分开源项目和作者个人总结，尚有不足之处，望理解（仅限电脑）。
@@ -135,3 +138,4 @@ w splloader C:\flash_tool\splloader_c8hpro_disverify.bin
 [^6]: 我的系统也有些不足，也就是无法用数据线线调试之类的，主要是不知道开发者模式暗码，有知道的可以分享一下。但其实不推荐自己找，我找到其他的，明明是可以兼容这个设备，但还是卡在第一屏┭┮﹏┭┮
 
 [^7]: 有需要的我可以在再累一篇博客专门讲😄
+

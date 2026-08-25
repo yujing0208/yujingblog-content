@@ -15,7 +15,6 @@ aiSummary: 分享iFlytek C8hPro刷机全过程，解BL锁加刷GSI，风险高�
 comment: true
 hideHomeContent: false
 ---
-
 # iFlytek-C8hPro-Crack
 ---
 关于iFlytek C8hPro平板刷机操作的一些研究，此笔记来源于Github上部分开源项目和作者个人总结，尚有不足之处，望理解（仅限电脑）。
@@ -138,4 +137,5 @@ w splloader C:\flash_tool\splloader_c8hpro_disverify.bin
 [^6]: 我的系统也有些不足，也就是无法用数据线线调试之类的，主要是不知道开发者模式暗码，有知道的可以分享一下。但其实不推荐自己找，我找到其他的，明明是可以兼容这个设备，但还是卡在第一屏┭┮﹏┭┮
 
 [^7]: 有需要的我可以在再累一篇博客专门讲😄
+
 

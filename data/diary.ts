@@ -16,6 +16,18 @@ export interface DiaryItem {
 // 日记数据
 const diaryData: DiaryItem[] = [
 	{
+		content: "正在搬运旧博容零星点东西 ing...\n",
+		date: "2026-08-25T19:42:14+08:00",
+		images: [],
+		location: "",
+		mood: "",
+		tags: [
+			"博客搭建"
+		],
+		imgMode: "",
+		id: 29
+	},
+	{
 		content: "王泽，矿大，麻薯饼\n我突然又不相信了😪",
 		date: "2026-08-25T17:27:19+08:00",
 		images: [],
@@ -372,16 +384,14 @@ const diaryData: DiaryItem[] = [
 		id: 24
 	},
 	{
-		content: "正在搬运旧博容零星点东西 ing...\n",
-		date: "2026-08-25T19:42:14+08:00",
+		content: "明晚就要回合肥了，这次来北京又好像啥也没干",
+		date: "2026-08-26T21:51:25+08:00",
 		images: [],
-		location: "",
+		location: "北京 丰台",
 		mood: "",
-		tags: [
-			"博客搭建"
-		],
+		tags: [],
 		imgMode: "",
-		id: 29
+		id: 30
 	}
 ];
 

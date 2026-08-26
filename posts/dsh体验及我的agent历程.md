@@ -9,10 +9,10 @@ tags:
 category: 杂谈
 licenseName: Unlicensed
 author: 余京
-sourceLink:
+sourceLink: ""
 draft: false
 date: 2026-08-22
-image:
+image: ""
 pubDate: 2026-08-22
 permalink: dsh&agent
 aiSummary: 从dsh到codex再到workbuddy，折腾一圈agent，发现还是网页版deepseek最靠谱，省钱省心不废话。

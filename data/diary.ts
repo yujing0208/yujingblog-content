@@ -16,6 +16,18 @@ export interface DiaryItem {
 // 日记数据
 const diaryData: DiaryItem[] = [
 	{
+		content: "不对呀，这个gemini api key怎么要满18啊，那我不是白注册谷歌账号了吗😓",
+		date: "2026-08-27T11:55:25+08:00",
+		images: [],
+		location: "",
+		mood: "无语",
+		tags: [
+			"碎碎念"
+		],
+		imgMode: "",
+		id: 33
+	},
+	{
 		content: "我靠，终于成了，我有谷歌账号了",
 		date: "2026-08-27T10:50:32+08:00",
 		images: [
@@ -418,16 +430,14 @@ const diaryData: DiaryItem[] = [
 		id: 24
 	},
 	{
-		content: "不对呀，这个gemini api key怎么要满18啊，那我不是白注册谷歌账号了吗😓",
-		date: "2026-08-27T11:55:25+08:00",
+		content: "https://codebuddy.work/agents/share/9_NWSVBN_4a19ds0e2Gk50h99whj6orxTJdrHeL7gAlZ6MHGupe1RJmhc-H4z2bl?platform=codebuddy",
+		date: "2026-08-27T19:26:09+08:00",
 		images: [],
 		location: "",
-		mood: "无语",
-		tags: [
-			"碎碎念"
-		],
+		mood: "",
+		tags: [],
 		imgMode: "",
-		id: 33
+		id: 34
 	}
 ];
 

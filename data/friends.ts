@@ -143,7 +143,7 @@ const friendsData: FriendItem[] = [
 	},
 	{
 		title: "Meet Blog 博客星图 ",
-		imgurl: "https://meet-blog.buyixiao.xyz/favicon",
+		imgurl: "https://a.favicon.im/meet-blog.buyixiao.xyz",
 		desc: "中文独立博客星系",
 		siteurl: "https://meet-blog.buyixiao.xyz/",
 		tags: [

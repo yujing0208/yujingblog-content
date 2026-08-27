@@ -16,6 +16,16 @@ export interface DiaryItem {
 // 日记数据
 const diaryData: DiaryItem[] = [
 	{
+		content: "明晚就要回合肥了，这次来北京又好像啥也没干",
+		date: "2026-08-26T21:51:25+08:00",
+		images: [],
+		location: "北京 丰台",
+		mood: "",
+		tags: [],
+		imgMode: "",
+		id: 30
+	},
+	{
 		content: "正在搬运旧博容零星点东西 ing...\n",
 		date: "2026-08-25T19:42:14+08:00",
 		images: [],
@@ -384,14 +394,16 @@ const diaryData: DiaryItem[] = [
 		id: 24
 	},
 	{
-		content: "明晚就要回合肥了，这次来北京又好像啥也没干",
-		date: "2026-08-26T21:51:25+08:00",
-		images: [],
-		location: "北京 丰台",
+		content: "我成功在旧手机上跑上了dsh，QQ 机器人，就是好像有点慢",
+		date: "2026-08-27T00:00:57+08:00",
+		images: [
+			"https://img.yujingblog.top/file/1787793557820_Screenshot_20260827_091306.jpg"
+		],
+		location: "",
 		mood: "",
 		tags: [],
-		imgMode: "",
-		id: 30
+		imgMode: "mode-mid",
+		id: 31
 	}
 ];
 

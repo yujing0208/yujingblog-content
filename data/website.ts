@@ -1,4 +1,4 @@
-﻿// 网站收藏（书签导航）数据配置
+// 网站收藏（书签导航）数据配置
 // 由站点 /websites 页面读取，并按下 category 分组展示。
 // 图标使用图片外链（imgurl 字段）；分类 category 取值：dev | project | design | ai | tool | resource
 export interface WebsiteItem {
@@ -75,13 +75,6 @@ export const websiteData: WebsiteItem[] = [
 		desc: "Mizuki 博客主题使用手册",
 		siteurl: "https://docs.mizuki.mysqil.com",
 		category: "dev"
-	},
-	{
-		title: "Firefly",
-		imgurl: "https://a.favicon.im/github.com",
-		desc: "清晰美观的 Astro 个人博客主题模板",
-		siteurl: "https://github.com/Moelten/astro-theme-firefly",
-		category: "project"
 	},
 	{
 		title: "Iconify",

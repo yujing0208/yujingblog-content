@@ -48,7 +48,7 @@ export const announcementData: AnnouncementData = {
 				enable: true,
 				text: "去留言",
 				url: "https://www.yujingblog.top/guestbook/",
-				external: false
+				external: true
 			}
 		}
 	],

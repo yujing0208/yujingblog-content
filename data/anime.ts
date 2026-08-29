@@ -552,7 +552,7 @@ const localAnimeList: AnimeItem[] = [
 		status: "completed",
 		category: "novel",
 		rating: 9.9,
-		cover: "https://p6-novel-sign.byteimg.com/novel-pic/c5397e4a514736bb1c6754663dbee3db~tplv-resize:225:300.image?lk3s=191c1ecc&x-expires=1786249829&x-signature=KVJgx6MzQ5Dpta7rIeD1cBRRXyc%3D",
+		cover: "https://tse2-mm.cn.bing.net/th/id/OIP-C.XAVA04yqDMYW68NU93WN2AHaJ4?w=135&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
 		description: "你是否想过，在那高悬于世人头顶的月亮之上，伫立着守望人间的神明？ 你是否想过，在人潮汹涌的现代城市之中，存在代替神明行走人间的超凡之人？ 人类统治的社会中，潜伏着无数诡异； 在那些无人问津的生命禁区，居住着古老的神明。 而属于大夏的神明，究竟去了何处？ 在",
 		episodes: "",
 		year: "2024",

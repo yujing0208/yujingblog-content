@@ -16,6 +16,20 @@ export interface DiaryItem {
 // 日记数据
 const diaryData: DiaryItem[] = [
 	{
+		content: "现在看你我的博客就有点不顺眼",
+		date: "2026-08-28T18:07:08+08:00",
+		images: [
+			"https://img.yujingblog.top/file/1787911687193_屏幕截图_2026-08-28_180739.webp"
+		],
+		location: "合肥",
+		mood: "纠结",
+		tags: [
+			"博客搭建"
+		],
+		imgMode: "mode-fill",
+		id: 35
+	},
+	{
 		content: "https://codebuddy.work/agents/share/9_NWSVBN_4a19ds0e2Gk50h99whj6orxTJdrHeL7gAlZ6MHGupe1RJmhc-H4z2bl?platform=codebuddy",
 		date: "2026-08-27T19:26:09+08:00",
 		images: [],
@@ -440,18 +454,16 @@ const diaryData: DiaryItem[] = [
 		id: 24
 	},
 	{
-		content: "现在看你我的博客就有点不顺眼",
-		date: "2026-08-28T18:07:08+08:00",
-		images: [
-			"https://img.yujingblog.top/file/1787911687193_屏幕截图_2026-08-28_180739.webp"
-		],
-		location: "合肥",
-		mood: "纠结",
+		content: "之前忘记了，用Gmail注册的谷歌账户会封，我还得申诉😒",
+		date: "2026-08-29T18:12:33+08:00",
+		images: [],
+		location: "",
+		mood: "难受",
 		tags: [
-			"博客搭建"
+			"碎碎念"
 		],
-		imgMode: "mode-fill",
-		id: 35
+		imgMode: "",
+		id: 36
 	}
 ];
 

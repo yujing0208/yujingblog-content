@@ -4,7 +4,7 @@ published: 2026-08-07
 pinned: false
 description: 从零到上线，记录一个 3D 音乐可视化页面的技术选型、音频频谱分析、Three.js 渲染与性能优化的完整过程。
 tags: ["Three.js", "Web Audio API", "可视化", "WebGL"]
-category: 折腾记录
+category: 博客折腾
 licenseName: CC BY 4.0
 author: 余京
 sourceLink: "https://github.com/Seasir-Hyde/Firefly-hyde"

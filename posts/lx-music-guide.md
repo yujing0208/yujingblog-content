@@ -3,7 +3,7 @@ title: "LX Music（洛雪音乐）：免费开源的全能音乐查找工具，�
 published: 2026-07-31
 description: "零基础学会下载安装 LX Music，配置自定义音源，免费畅听全网音乐。支持 Windows / macOS / Linux / Android 全平台，开源无广告。"
 tags: [LX Music, 开源, 免费, 教程]
-category: "软件推荐"
+category: 推荐分享
 draft: false
 pinned: false
 image: 'https://ts1.tc.mm.bing.net/th/id/OIP-C.pxhC07XCuH4CfENun93MqwAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3'

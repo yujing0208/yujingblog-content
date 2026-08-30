@@ -6,7 +6,7 @@ description: 一些使用agent经历感想
 tags:
   - dsh
   - agent
-category: 杂谈
+category: 技术随笔
 licenseName: Unlicensed
 author: 余京
 sourceLink: ""

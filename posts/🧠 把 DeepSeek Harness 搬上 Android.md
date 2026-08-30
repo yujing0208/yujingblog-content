@@ -6,7 +6,7 @@ description: dsh跑在旧手机上，并接入QQ机器人
 tags:
   - agent
   - QQ机器人
-category: 折腾记录
+category: 技术教程
 licenseName: Unlicensed
 author: 余京
 sourceLink: dsh-android+QQbot

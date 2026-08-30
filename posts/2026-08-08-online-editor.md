@@ -2,7 +2,7 @@
 title: "给博客加了在线编辑器，改内容再也不用开编辑器了"
 published: 2026-08-08
 description: "给博客加了个浏览器里的在线编辑器：/admin 下按数据类型生成表单，改完暂存、统一推送，一次提交触发部署。记一下它怎么从零上线的，以及背后踩的一个 GitHub API 坑。"
-tags: [在线编辑器, Mizuki, 博客折腾, AI]
+tags: ["Mizuki", "博客", "记录"]
 category: 博客折腾
 draft: false
 aiSummary: "给博客做了个浏览器在线编辑器：按 schema 自动生成表单，改完先暂存再统一推送，一次提交触发部署。顺手记了上线时踩的 GitHub ref 端点单复数坑。"

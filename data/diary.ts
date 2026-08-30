@@ -16,7 +16,19 @@ export interface DiaryItem {
 // 日记数据
 const diaryData: DiaryItem[] = [
 	{
-		content: "现在看你我的博客就有点不顺眼",
+		content: "之前忘记了，用Gmail注册的谷歌账户会封，我还得申诉😒",
+		date: "2026-08-29T18:12:33+08:00",
+		images: [],
+		location: "",
+		mood: "难受",
+		tags: [
+			"碎碎念"
+		],
+		imgMode: "",
+		id: 36
+	},
+	{
+		content: "现在看我的博客就有点不顺眼",
 		date: "2026-08-28T18:07:08+08:00",
 		images: [
 			"https://img.yujingblog.top/file/1787911687193_屏幕截图_2026-08-28_180739.webp"
@@ -454,16 +466,32 @@ const diaryData: DiaryItem[] = [
 		id: 24
 	},
 	{
-		content: "之前忘记了，用Gmail注册的谷歌账户会封，我还得申诉😒",
-		date: "2026-08-29T18:12:33+08:00",
-		images: [],
-		location: "",
-		mood: "难受",
+		content: "有服务器，确实爽",
+		date: "2026-08-30T23:30:58+08:00",
+		images: [
+			"https://img.yujingblog.top/file/1788110031045_Screenshot_20260830-234923.webp"
+		],
+		location: "床上",
+		mood: "爽",
 		tags: [
 			"碎碎念"
 		],
-		imgMode: "",
-		id: 36
+		imgMode: "mode-mid",
+		id: 37
+	},
+	{
+		content: "有服务器，确实爽",
+		date: "2026-08-30T23:15:59+08:00",
+		images: [
+			"https://img.yujingblog.top/file/1788110158197_Screenshot_20260830-234923.webp"
+		],
+		location: "床上",
+		mood: "爽",
+		tags: [
+			"碎碎念"
+		],
+		imgMode: "mode-mid",
+		id: 38
 	}
 ];
 

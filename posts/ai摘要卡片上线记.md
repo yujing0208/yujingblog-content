@@ -1,6 +1,7 @@
 ---
 title: 给博客加了 AI 摘要卡片
 published: 2026-08-05
+updated: 2026-08-05
 description: 给文章页加了 AI 摘要卡片：DeepSeek 生成、打字机呈现，提交新文章时自动补。
 tags: ["DeepSeek", "AI", "博客", "记录"]
 category: 博客折腾

@@ -10,7 +10,6 @@ author: 余京
 draft: false
 date: 2026-08-30
 updated: 2026-08-30
-pubDate: 2026-08-30
 lang: zh-CN
 aiSummary: 用腾讯云免费试用服务器 + NapCat + AstrBot + DeepSeek 三件套，跑通了一个 24 小时在线、国内 IP 的 QQ AI 机器人，全程零成本，扫码登录、互联配置和踩坑记录都在里面了。
 comment: true

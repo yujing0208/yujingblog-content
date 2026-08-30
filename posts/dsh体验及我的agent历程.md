@@ -1,5 +1,6 @@
 ---
 published: 2026-08-22
+updated: 2026-08-22
 title: dsh体验及我的agent历程
 pinned: false
 description: 一些使用agent经历感想
@@ -11,7 +12,6 @@ sourceLink: ""
 draft: false
 date: 2026-08-22
 image: ""
-pubDate: 2026-08-22
 permalink: dsh&agent
 aiSummary: 从dsh到codex再到workbuddy，折腾一圈agent，发现还是网页版deepseek最靠谱，省钱省心不废话。
 ---

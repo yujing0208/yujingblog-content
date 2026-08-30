@@ -11,7 +11,6 @@ sourceLink: "https://github.com/Seasir-Hyde/Firefly-hyde"
 draft: false
 date: 2026-08-07
 updated: 2026-08-07
-pubDate: 2026-08-07
 lang: zh-CN
 aiSummary: 折腾了挺久的浏览器3D音乐可视化终于跑通了，用频谱驱动柱子跳动，还踩了不少性能坑，这篇聊聊实现和爬坑记录。
 comment: true

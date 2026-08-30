@@ -3,9 +3,7 @@ published: 2026-08-22
 title: dsh体验及我的agent历程
 pinned: false
 description: 一些使用agent经历感想
-tags:
-  - dsh
-  - agent
+tags: ["Agent", "AI", "心得"]
 category: 技术随笔
 licenseName: Unlicensed
 author: 余京

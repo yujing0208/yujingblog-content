@@ -3,7 +3,7 @@ title: 从零搭一个 QQ AI 机器人：NapCat + AstrBot + DeepSeek 全流程
 published: 2026-08-30
 pinned: false
 description: 用腾讯云轻量服务器 + NapCat + AstrBot + DeepSeek 搭一个 24 小时在线、国内 IP、几乎零成本的 QQ AI 机器人。包含架构说明、完整部署步骤、扫码登录避坑和到期后的续费方案。
-tags: ["QQ机器人", "DeepSeek", "Docker", "部署"]
+tags: ["DeepSeek", "QQ机器人", "AI", "教程"]
 category: 技术教程
 licenseName: CC BY 4.0
 author: 余京

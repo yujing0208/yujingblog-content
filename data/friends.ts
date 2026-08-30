@@ -97,7 +97,8 @@ const friendsData: FriendItem[] = [
 		desc: "如果你喜欢那么欢迎来到我的世界！",
 		siteurl: "https://blog.tsh520.cn",
 		tags: [
-			"博客"
+			"博客",
+			"收藏"
 		]
 	},
 	{
@@ -116,7 +117,8 @@ const friendsData: FriendItem[] = [
 		desc: "逐光而上",
 		siteurl: "https://upxuu.com",
 		tags: [
-			"博客"
+			"博客",
+			"收藏"
 		],
 		id: 18
 	},
@@ -137,7 +139,7 @@ const friendsData: FriendItem[] = [
 		siteurl: "https://innei.in/",
 		tags: [
 			"博客",
-			"优质"
+			"收藏"
 		],
 		id: 20
 	},

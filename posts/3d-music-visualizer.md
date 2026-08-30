@@ -3,7 +3,7 @@ title: 上线了：一个用 Web Audio + Three.js 做的 3D 音乐可视化页�
 published: 2026-08-07
 pinned: false
 description: 从零到上线，记录一个 3D 音乐可视化页面的技术选型、音频频谱分析、Three.js 渲染与性能优化的完整过程。
-tags: ["Three.js", "Web Audio API", "可视化", "WebGL"]
+tags: ["Three.js", "Web Audio API", "音乐", "记录"]
 category: 博客折腾
 licenseName: CC BY 4.0
 author: 余京

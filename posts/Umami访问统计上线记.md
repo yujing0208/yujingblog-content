@@ -3,7 +3,7 @@ title: "给博客侧边栏加了个 Umami 访问统计卡片"
 published: 2026-08-08
 description: "给 Mizuki 博客侧边栏加了一张 Umami 访问统计卡片：纯前端调 Umami 的 Share API 拉数据，零后端、不暴露密钥，支持 CORS。两个踩坑：漏改渲染映射表导致静默不渲染、组件类名撞了资料卡的统计容器被 hidden 藏掉。"
 tags: [Umami, 访问统计, 侧边栏, 博客折腾]
-category: "折腾记录"
+category: 博客折腾
 draft: false
 pinned: false
 # image: 封面留空，上线前自己上图床补

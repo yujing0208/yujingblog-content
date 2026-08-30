@@ -3,9 +3,7 @@ published: 2026-08-28
 title: 🧠 把 DeepSeek Harness 搬上 Android
 pinned: false
 description: dsh跑在旧手机上，并接入QQ机器人
-tags:
-  - agent
-  - QQ机器人
+tags: ["Android", "QQ机器人", "AI", "教程"]
 category: 技术教程
 licenseName: Unlicensed
 author: 余京

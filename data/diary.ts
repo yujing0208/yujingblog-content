@@ -16,6 +16,15 @@ export interface DiaryItem {
 // 日记数据
 const diaryData: DiaryItem[] = [
 	{
+		id: 40,
+		content: "第一夜",
+		date: "2026-09-01T00:00:00+08:00",
+		location: "瑶一男寝",
+		mood: "",
+		tags: ["日常"],
+	},
+
+	{
 		content: "不嘻嘻了😁",
 		date: "2026-08-31T01:57:28+08:00",
 		images: [

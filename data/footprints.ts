@@ -30,7 +30,7 @@ export const footprintsData = [
 		coordinates: [116.292423, 39.862301],
 		categories: ["交通"],
 		date: "2026-08-11",
-		description: "",
+		description: "到北京了",
 		photos: [],
 		markerColor: "sunset",
 		id: 1,

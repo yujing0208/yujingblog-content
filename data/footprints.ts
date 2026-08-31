@@ -25,4 +25,13 @@ export const footprintsData = [
 		url: "",
 		urlLabel: ""
 	}
-];
+	{
+		name: "丰台火车站",
+		coordinates: [116.292423, 39.862301],
+		categories: ["交通"],
+		date: "2026-08-11",
+		description: "",
+		photos: [],
+		markerColor: "sunset",
+		id: 1,
+	},];

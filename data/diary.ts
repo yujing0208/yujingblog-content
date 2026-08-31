@@ -510,6 +510,21 @@ const diaryData: DiaryItem[] = [
 		],
 		imgMode: "",
 		id: 24
+	},
+	{
+		content: "ber，我都快走了，给我整这一出",
+		date: "2026-08-31T11:22:54+08:00",
+		images: [
+			"https://img.yujingblog.top/file/1788147721967_1000745457.webp",
+			"https://img.yujingblog.top/file/1788147722193_1000745457.webp"
+		],
+		location: "",
+		mood: "崩",
+		tags: [
+			"碎碎念"
+		],
+		imgMode: "mode-mid",
+		id: 39
 	}
 ];
 

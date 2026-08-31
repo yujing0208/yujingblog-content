@@ -24,7 +24,7 @@ export const footprintsData = [
 		markerColor: "forest",
 		url: "",
 		urlLabel: ""
-	}
+	},
 	{
 		name: "丰台火车站",
 		coordinates: [116.292423, 39.862301],

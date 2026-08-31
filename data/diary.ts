@@ -16,6 +16,21 @@ export interface DiaryItem {
 // 日记数据
 const diaryData: DiaryItem[] = [
 	{
+		content: "不嘻嘻了😁",
+		date: "2026-08-31T01:57:28+08:00",
+		images: [
+			"https://img.yujingblog.top/file/1788112663585_Screenshot_20260831-015543.webp"
+		],
+		location: "",
+		mood: "崩",
+		tags: [
+			"技术",
+			"碎碎念"
+		],
+		imgMode: "mode-mid",
+		id: 38
+	},
+	{
 		content: "有服务器，确实爽",
 		date: "2026-08-30T23:30:58+08:00",
 		images: [
@@ -23,7 +38,9 @@ const diaryData: DiaryItem[] = [
 		],
 		location: "床上",
 		mood: "爽",
-		tags: ["博客"],
+		tags: [
+			"碎碎念"
+		],
 		imgMode: "mode-mid",
 		id: 37
 	},
@@ -33,7 +50,9 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "",
 		mood: "难受",
-		tags: ["技术"],
+		tags: [
+			"技术"
+		],
 		imgMode: "",
 		id: 36
 	},
@@ -45,19 +64,12 @@ const diaryData: DiaryItem[] = [
 		],
 		location: "合肥",
 		mood: "纠结",
-		tags: ["博客", "碎碎念"],
+		tags: [
+			"博客",
+			"碎碎念"
+		],
 		imgMode: "mode-fill",
 		id: 35
-	},
-	{
-		content: "https://codebuddy.work/agents/share/9_NWSVBN_4a19ds0e2Gk50h99whj6orxTJdrHeL7gAlZ6MHGupe1RJmhc-H4z2bl?platform=codebuddy",
-		date: "2026-08-27T19:26:09+08:00",
-		images: [],
-		location: "",
-		mood: "",
-		tags: ["技术"],
-		imgMode: "",
-		id: 34
 	},
 	{
 		content: "不对呀，这个gemini api key怎么要满18啊，那我不是白注册谷歌账号了吗😓",
@@ -65,7 +77,10 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "",
 		mood: "无语",
-		tags: ["技术", "碎碎念"],
+		tags: [
+			"技术",
+			"碎碎念"
+		],
 		imgMode: "",
 		id: 33
 	},
@@ -77,7 +92,9 @@ const diaryData: DiaryItem[] = [
 		],
 		location: "",
 		mood: "激动",
-		tags: ["技术"],
+		tags: [
+			"技术"
+		],
 		imgMode: "mode-mid",
 		id: 32
 	},
@@ -89,7 +106,10 @@ const diaryData: DiaryItem[] = [
 		],
 		location: "",
 		mood: "",
-		tags: ["博客", "技术"],
+		tags: [
+			"博客",
+			"技术"
+		],
 		imgMode: "mode-mid",
 		id: 31
 	},
@@ -99,7 +119,9 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "北京 丰台",
 		mood: "",
-		tags: ["日常"],
+		tags: [
+			"日常"
+		],
 		imgMode: "",
 		id: 30
 	},
@@ -109,7 +131,9 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "",
 		mood: "",
-		tags: ["博客"],
+		tags: [
+			"博客"
+		],
 		imgMode: "",
 		id: 29
 	},
@@ -119,7 +143,10 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "门头沟",
 		mood: "难受",
-		tags: ["日常", "社交"],
+		tags: [
+			"日常",
+			"社交"
+		],
 		imgMode: "",
 		id: 22
 	},
@@ -145,7 +172,9 @@ const diaryData: DiaryItem[] = [
 		],
 		location: "门头沟",
 		mood: "爽",
-		tags: ["番剧"],
+		tags: [
+			"番剧"
+		],
 		imgMode: "mode-mid",
 		id: 21
 	},
@@ -168,7 +197,9 @@ const diaryData: DiaryItem[] = [
 		],
 		location: "北京",
 		mood: "累死",
-		tags: ["日常"],
+		tags: [
+			"日常"
+		],
 		imgMode: "mode-grid",
 		id: 20
 	},
@@ -178,7 +209,9 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "北京",
 		mood: "",
-		tags: ["日常"],
+		tags: [
+			"日常"
+		],
 		imgMode: "",
 		id: 19
 	},
@@ -190,7 +223,10 @@ const diaryData: DiaryItem[] = [
 		],
 		location: "",
 		mood: "震惊",
-		tags: ["技术", "博客"],
+		tags: [
+			"技术",
+			"博客"
+		],
 		imgMode: "mode-fill",
 		id: 18
 	},
@@ -200,7 +236,10 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "床",
 		mood: "无聊",
-		tags: ["日常", "碎碎念"],
+		tags: [
+			"日常",
+			"碎碎念"
+		],
 		imgMode: "",
 		id: 17
 	},
@@ -210,7 +249,9 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "",
 		mood: "难评",
-		tags: ["日常"],
+		tags: [
+			"日常"
+		],
 		imgMode: "",
 		id: 16
 	},
@@ -220,7 +261,10 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "家",
 		mood: "累",
-		tags: ["番剧", "日常"],
+		tags: [
+			"番剧",
+			"日常"
+		],
 		imgMode: "",
 		id: 15
 	},
@@ -231,7 +275,10 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "家",
 		mood: "哭死",
-		tags: ["博客", "技术"],
+		tags: [
+			"博客",
+			"技术"
+		],
 		imgMode: ""
 	},
 	{
@@ -241,7 +288,9 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "",
 		mood: "放松",
-		tags: ["博客"],
+		tags: [
+			"博客"
+		],
 		imgMode: ""
 	},
 	{
@@ -253,7 +302,10 @@ const diaryData: DiaryItem[] = [
 		],
 		location: "电脑前",
 		mood: "崩溃",
-		tags: ["博客", "碎碎念"],
+		tags: [
+			"博客",
+			"碎碎念"
+		],
 		imgMode: "mode-grid"
 	},
 	{
@@ -262,7 +314,10 @@ const diaryData: DiaryItem[] = [
 		date: "2026-08-05T06:00:00+08:00",
 		images: [],
 		mood: "疲惫",
-		tags: ["日常", "碎碎念"]
+		tags: [
+			"日常",
+			"碎碎念"
+		]
 	},
 	{
 		id: 10,
@@ -272,7 +327,10 @@ const diaryData: DiaryItem[] = [
 			"https://img.yujingblog.top/file/1785781799608_image.webp"
 		],
 		mood: "羡慕",
-		tags: ["博客", "碎碎念"]
+		tags: [
+			"博客",
+			"碎碎念"
+		]
 	},
 	{
 		id: 9,
@@ -281,7 +339,9 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "安徽",
 		mood: "舒服",
-		tags: ["博客"]
+		tags: [
+			"博客"
+		]
 	},
 	{
 		id: 8,
@@ -291,7 +351,10 @@ const diaryData: DiaryItem[] = [
 			"https://img.yujingblog.top/file/1785786132107_屏幕截图_2026-08-01_185526.webp"
 		],
 		mood: "呃(⊙﹏⊙)",
-		tags: ["消费", "博客"],
+		tags: [
+			"消费",
+			"博客"
+		],
 		imgMode: "mode-mid"
 	},
 	{
@@ -302,7 +365,11 @@ const diaryData: DiaryItem[] = [
 			"https://tse4-mm.cn.bing.net/th/id/OIP-C.FAuf6qKdlov89LMj7PqQJAAAAA?w=170&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
 		],
 		mood: "命苦",
-		tags: ["博客", "技术", "碎碎念"],
+		tags: [
+			"博客",
+			"技术",
+			"碎碎念"
+		],
 		imgMode: "mode-grid"
 	},
 	{
@@ -311,7 +378,9 @@ const diaryData: DiaryItem[] = [
 		date: "2026-07-31T00:12:05+08:00",
 		images: [],
 		mood: "轻松",
-		tags: ["碎碎念"]
+		tags: [
+			"碎碎念"
+		]
 	},
 	{
 		id: 5,
@@ -319,7 +388,9 @@ const diaryData: DiaryItem[] = [
 		date: "2026-07-30T20:38:31+08:00",
 		images: [],
 		mood: "轻松",
-		tags: ["碎碎念"]
+		tags: [
+			"碎碎念"
+		]
 	},
 	{
 		id: 4,
@@ -329,7 +400,10 @@ const diaryData: DiaryItem[] = [
 			"https://img.yujingblog.top/file/1785928043492_屏幕截图_2026-07-24_152153.webp"
 		],
 		mood: "扎心➳♥゛",
-		tags: ["社交", "碎碎念"],
+		tags: [
+			"社交",
+			"碎碎念"
+		],
 		imgMode: "mode-mid"
 	},
 	{
@@ -340,7 +414,11 @@ const diaryData: DiaryItem[] = [
 			"https://bee-reg-ab.imagency.cn/p/a425b75dcb73d3b23eed6309a5f84ae1.png"
 		],
 		mood: "心痛",
-		tags: ["博客", "技术", "碎碎念"]
+		tags: [
+			"博客",
+			"技术",
+			"碎碎念"
+		]
 	},
 	{
 		id: 2,
@@ -348,7 +426,9 @@ const diaryData: DiaryItem[] = [
 		date: "2026-07-27T12:39:01+08:00",
 		images: [],
 		mood: "无语",
-		tags: ["日常"]
+		tags: [
+			"日常"
+		]
 	},
 	{
 		id: 1,
@@ -359,7 +439,9 @@ const diaryData: DiaryItem[] = [
 		],
 		location: "家里",
 		mood: "崩溃",
-		tags: ["博客"]
+		tags: [
+			"博客"
+		]
 	},
 	{
 		content: "改上网课了",
@@ -369,7 +451,9 @@ const diaryData: DiaryItem[] = [
 		],
 		location: "",
 		mood: "",
-		tags: ["日常"],
+		tags: [
+			"日常"
+		],
 		imgMode: "mode-fill",
 		id: 28
 	},
@@ -381,7 +465,10 @@ const diaryData: DiaryItem[] = [
 		],
 		location: "",
 		mood: "",
-		tags: ["日常", "碎碎念"],
+		tags: [
+			"日常",
+			"碎碎念"
+		],
 		imgMode: "",
 		id: 26
 	},
@@ -393,7 +480,9 @@ const diaryData: DiaryItem[] = [
 		],
 		location: "",
 		mood: "",
-		tags: ["番剧"],
+		tags: [
+			"番剧"
+		],
 		imgMode: "mode-fill",
 		id: 25
 	},
@@ -403,7 +492,10 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "安徽 合肥",
 		mood: "激动",
-		tags: ["博客", "消费"],
+		tags: [
+			"博客",
+			"消费"
+		],
 		imgMode: "",
 		id: 23
 	},
@@ -413,21 +505,11 @@ const diaryData: DiaryItem[] = [
 		images: [],
 		location: "",
 		mood: "",
-		tags: ["博客"],
+		tags: [
+			"博客"
+		],
 		imgMode: "",
 		id: 24
-	},
-	{
-		content: "不嘻嘻了😁",
-		date: "2026-08-31T01:57:28+08:00",
-		images: [
-			"https://img.yujingblog.top/file/1788112663585_Screenshot_20260831-015543.webp"
-		],
-		location: "",
-		mood: "崩",
-		tags: ["日常", "碎碎念"],
-		imgMode: "mode-mid",
-		id: 38
 	}
 ];
 

@@ -162,6 +162,26 @@ const friendsData: FriendItem[] = [
 			"博客"
 		],
 		id: 22
+	},
+	{
+		title: "eardogのRef:rain",
+		imgurl: "https://www.paeardog.top/eardog.png",
+		desc: "做一个淡淡的人.",
+		siteurl: "https://www.paeardog.top",
+		tags: [
+			"博客"
+		],
+		id: 23
+	},
+	{
+		title: "Wuの小站",
+		imgurl: "https://www.jywu.asia/IMG_6566.webp",
+		desc: "Wuの个人小站，记录生活",
+		siteurl: "https://www.jywu.asia",
+		tags: [
+			"博客"
+		],
+		id: 24
 	}
 ];
 export function getFriendsList(): FriendItem[] {

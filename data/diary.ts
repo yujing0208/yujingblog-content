@@ -21,9 +21,25 @@ const diaryData: DiaryItem[] = [
 		date: "2026-09-01T00:00:00+08:00",
 		location: "瑶一男寝",
 		mood: "",
-		tags: ["日常"],
+		tags: [
+			"日常"
+		]
 	},
-
+	{
+		content: "ber，我都快走了，给我整这一出",
+		date: "2026-08-31T11:22:54+08:00",
+		images: [
+			"https://img.yujingblog.top/file/1788147721967_1000745457.webp",
+			"https://img.yujingblog.top/file/1788147722193_1000745457.webp"
+		],
+		location: "",
+		mood: "崩",
+		tags: [
+			"碎碎念"
+		],
+		imgMode: "mode-mid",
+		id: 39
+	},
 	{
 		content: "不嘻嘻了😁",
 		date: "2026-08-31T01:57:28+08:00",
@@ -521,19 +537,14 @@ const diaryData: DiaryItem[] = [
 		id: 24
 	},
 	{
-		content: "ber，我都快走了，给我整这一出",
-		date: "2026-08-31T11:22:54+08:00",
-		images: [
-			"https://img.yujingblog.top/file/1788147721967_1000745457.webp",
-			"https://img.yujingblog.top/file/1788147722193_1000745457.webp"
-		],
+		content: "给我气哭了，我妈花钱找人清电脑，结果把我BCD引导删了，看不了机，搞了我半天",
+		date: "2026-09-18T22:35:04+08:00",
+		images: [],
 		location: "",
-		mood: "崩",
-		tags: [
-			"碎碎念"
-		],
-		imgMode: "mode-mid",
-		id: 39
+		mood: "无语😅",
+		tags: [],
+		imgMode: "",
+		id: 41
 	}
 ];
 

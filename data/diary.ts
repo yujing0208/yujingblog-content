@@ -16,6 +16,16 @@ export interface DiaryItem {
 // 日记数据
 const diaryData: DiaryItem[] = [
 	{
+		content: "给我气哭了，我妈花钱找人清电脑，结果把我BCD引导删了，看不了机，搞了我半天",
+		date: "2026-09-18T22:35:04+08:00",
+		images: [],
+		location: "",
+		mood: "无语😅",
+		tags: [],
+		imgMode: "",
+		id: 41
+	},
+	{
 		id: 40,
 		content: "第一夜",
 		date: "2026-09-01T00:00:00+08:00",
@@ -537,14 +547,14 @@ const diaryData: DiaryItem[] = [
 		id: 24
 	},
 	{
-		content: "给我气哭了，我妈花钱找人清电脑，结果把我BCD引导删了，看不了机，搞了我半天",
-		date: "2026-09-18T22:35:04+08:00",
+		content: "Github牛逼不解释，原来我对Github的开发仅为1%",
+		date: "2026-09-24T21:25:51+08:00",
 		images: [],
 		location: "",
-		mood: "无语😅",
+		mood: "",
 		tags: [],
 		imgMode: "",
-		id: 41
+		id: 42
 	}
 ];
 

@@ -564,6 +564,16 @@ const diaryData: DiaryItem[] = [
 		],
 		imgMode: "",
 		id: 24
+	},
+	{
+		content: "太久没有管我的小智了，今天打理打理，重刷个固件什么的",
+		date: "2026-09-25T22:30:59+08:00",
+		images: [],
+		location: "",
+		mood: "",
+		tags: [],
+		imgMode: "",
+		id: 44
 	}
 ];
 

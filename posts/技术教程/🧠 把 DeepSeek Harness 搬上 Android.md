@@ -11,7 +11,7 @@ author: 余京
 sourceLink: dsh-android+QQbot
 draft: false
 date: 2026-08-28
-image:
+image: 'https://yujingblog.top/images/posts/covers/dsh-android.jpg'
 permalink:
 aiSummary: 把 DeepSeek Harness（dsh）QQ 机器人完整部署到 Android/Termux 的实战方案：danger-full-access 权限配置、Termux:Boot 开机自启、keepalive 自愈保活、关闭思考省 token 与零成本自动快照，附远程诊断指令表和放外地 Checklist，可放心无人值守。
 ------

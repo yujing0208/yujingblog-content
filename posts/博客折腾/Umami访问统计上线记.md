@@ -8,7 +8,7 @@ tags: ["Umami", "博客", "记录"]
 category: 博客折腾
 draft: false
 pinned: false
-# image: 封面留空，上线前自己上图床补
+image: 'https://yujingblog.top/images/posts/covers/umami-stats.jpg'
 aiSummary: "侧边栏加了张Umami访问统计卡片，纯前端拉Share API数据，不暴露密钥。踩两个坑：漏改渲染映射表不显示，类名撞了资料卡被隐藏。"
 ---
 # 给博客侧边栏加了个 Umami 访问统计卡片

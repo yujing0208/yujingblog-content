@@ -14,7 +14,7 @@ updated: 2026-08-30
 lang: zh-CN
 aiSummary: 用腾讯云免费试用服务器 + NapCat + AstrBot + DeepSeek 三件套，跑通了一个 24 小时在线、国内 IP 的 QQ AI 机器人，全程零成本，扫码登录、互联配置和踩坑记录都在里面了。
 comment: true
-# image: 封面待补（自行上图床后填写）
+image: 'https://yujingblog.top/images/posts/covers/qq-ai-bot.jpg'
 ---
 之前一直想要一个 24 小时在线的 QQ 机器人，能聊天、能整活、最好还不用花钱。折腾了一圈，最后用 **NapCat + AstrBot + DeepSeek** 这套组合在腾讯云轻量服务器上把它跑通了。这篇把完整方案和踩过的坑都记录下来，给想自己搭一个的人当参考。
 

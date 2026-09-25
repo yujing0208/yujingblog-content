@@ -16,6 +16,16 @@ export interface DiaryItem {
 // 日记数据
 const diaryData: DiaryItem[] = [
 	{
+		content: "呵呵(￣、￣)",
+		date: "2026-09-25T21:18:02+08:00",
+		images: [],
+		location: "",
+		mood: "死了",
+		tags: [],
+		imgMode: "",
+		id: 43
+	},
+	{
 		content: "Github牛逼不解释，原来我对Github的开发仅为1%",
 		date: "2026-09-24T21:25:51+08:00",
 		images: [],
@@ -49,7 +59,6 @@ const diaryData: DiaryItem[] = [
 		content: "ber，我都快走了，给我整这一出",
 		date: "2026-08-31T11:22:54+08:00",
 		images: [
-			"https://img.yujingblog.top/file/1788147721967_1000745457.webp",
 			"https://img.yujingblog.top/file/1788147722193_1000745457.webp"
 		],
 		location: "",
@@ -555,16 +564,6 @@ const diaryData: DiaryItem[] = [
 		],
 		imgMode: "",
 		id: 24
-	},
-	{
-		content: "呵呵(￣、￣)",
-		date: "2026-09-25T21:18:02+08:00",
-		images: [],
-		location: "",
-		mood: "死了",
-		tags: [],
-		imgMode: "",
-		id: 43
 	}
 ];
 

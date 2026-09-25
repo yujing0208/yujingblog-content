@@ -1,7 +1,7 @@
 ---
 title: "LX Music（洛雪音乐）：免费开源的全能音乐查找工具，小白也能轻松上手"
 published: 2026-07-31
-updated: 2026-07-31
+updated: 2026-09-25
 description: "零基础学会下载安装 LX Music，配置自定义音源，免费畅听全网音乐。支持 Windows / macOS / Linux / Android 全平台，开源无广告。"
 tags: ["音乐", "开源", "推荐"]
 category: 推荐分享
@@ -123,20 +123,29 @@ lx-music-mobile-v1.8.4.apk
 ⑤ 返回勾选该音源
 ```
 
-### 推荐音源（亲测可用）
+### 推荐音源（2026-09 实测最新，全部来自 `pdone/lx-music-source`）
 
-下面这几个是目前比较稳定的，建议一次加 3-4 个，哪个崩了换哪个：
+> 之前那批旧链接很多已经失效了。下面这 10 个是目前社区维护最活跃、持续更新的源，建议一次全加上，按需要排优先级即可。**追求高音质（无损 FLAC）把「长青 / 六音 / 全豆要」拖到最上面；求稳加「洛雪原版 / Huibq」；搜冷门歌换「野花」。**
 
-| 音源名字 | 链接 | 特点 |
-| --- | --- | --- |
-| **SixYin（六音）** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/sixyin/latest.js` | 适配广，资源全 |
-| **Huibq** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/huibq/latest.js` | 稳定，主流平台热歌覆盖好 |
-| **Flower（野花）** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/flower/latest.js` | 小众歌曲表现不错 |
-| **Juhe（聚合 API）** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/juhe/latest.js` | 多源聚合 |
-| **Grass（野草）** | `https://tt.tenmeng.com/moonue/js/yecao202412.js` | 轻量 |
-| **SixYin（直链）** | `https://raw.githubusercontent.com/pdone/lx-music-source/main/sixyin/latest.js` | 需要科学上网 |
+| 音源 | 导入链接（加速） | 专长 / 音质 | 可下载 |
+| --- | --- | --- | --- |
+| **长青 ChangQing（SVIP 无损）** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/changqing/latest.js` | 全平台 FLAC 无损，主打高音质 | ✅ |
+| **全豆要 QDY（聚合 v9.3）** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/qdy/latest.js` | 聚合星海 / 溯音 / 念心 / 长青等多源，自动回退，最稳最全 | ✅ |
+| **六音 SixYin** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/sixyin/latest.js` | 适配广、多平台无损、曲库最全 | ✅ |
+| **洛雪原版 LX** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/lx/latest.js` | 原版源，基础稳定兜底 | ✅ |
+| **Huibq** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/huibq/latest.js` | 主流平台热歌覆盖好、稳 | ✅ |
+| **野花 Flower** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/flower/latest.js` | 小众 / 冷门歌曲表现好 | ✅ |
+| **幻音 HuanYin** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/huanyin/latest.js` | 补充源（作者竹佀） | ✅ |
+| **ikun** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/ikun/latest.js` | 补充源（基于 MeoProject API） | ✅ |
+| **聚合 JuheApi** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/juhe/latest.js` | 多源聚合 API（CF 部署） | ✅ |
+| **野草 Grass** | `https://ghproxy.net/raw.githubusercontent.com/pdone/lx-music-source/main/grass/latest.js` | 轻量备用 | ✅ |
 
-> 这些音源都是第三方维护的，随时可能挂，挂了换个就行，不是软件的问题。
+**几个要点：**
+
+- **下载**：洛雪默认关闭下载。去 `设置 → 下载设置` 打开「允许下载」，再选音质（128k / 320k / FLAC / FLAC 24bit）。上面这些源大多支持下载。
+- **本地导入更稳**：把 `.js` 文件存到本地，在「自定义源管理」里选「本地导入」，不受网络波动影响（比在线链接更省心）。
+- **会失效**：音源都是第三方维护，随时可能挂。挂了就换列表里另一个，或去仓库 [`pdone/lx-music-source`](https://github.com/pdone/lx-music-source) 抄最新链接。
+- **GitHub 直链**：如果 `ghproxy.net` 抽风，把链接开头的 `https://ghproxy.net/raw.githubusercontent.com/` 换成 `https://raw.githubusercontent.com/` 即可（需要能访问 GitHub）。
 
 ---
 

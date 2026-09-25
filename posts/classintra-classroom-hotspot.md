@@ -14,8 +14,9 @@ updated: 2026-09-24
 lang: zh-CN
 aiSummary: 把 ClassIntra 打包成 Windows 绿色便携版，双击一个 bat 就能在教室电脑上开热点、把畅言智慧课堂这类教育平台的域名劫持过来，让同学平板连上热点直接进到我们自己搭的局域网小站——聊天、发帖、听歌、看片、打 HTML 小游戏、传照片，还有内置 AI。
 comment: true
+showShare: true
+image: "https://camo.githubusercontent.com/acae4e49cfe808bbf1cb08f5bbc777cc04323d2fd2e210cbabeecab5e19268ca/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f436c617373496e7472612f436c617373496e747261406d61696e2f42616e6e65722e706e67"
 ---
-
 最近班里多了个东西。
 
 教室电脑上双击一个 bat，开出一个热点，同学平板连上去，本来该跳出畅言智慧课堂的，结果进了我们自己搭的小站。
@@ -221,3 +222,4 @@ Windows 那个「移动热点」其实是靠 ICS（Internet 连接共享）撑�
 - [ClassIntra 官方仓库](https://github.com/ClassIntra/ClassIntra) —— 校园内网 WebOS 平台本体
 - [ClassIntra 官方文档](https://classintra.github.io) —— 部署与使用指南
 - [本项目仓库](https://github.com/yujing0208/classintra-portable) —— 绿色便携版与热点劫持组件
+

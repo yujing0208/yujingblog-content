@@ -8,7 +8,7 @@ tags: ["音乐", "开源", "推荐"]
 category: 推荐分享
 draft: false
 pinned: false
-image: 'https://ts1.tc.mm.bing.net/th/id/OIP-C.pxhC07XCuH4CfENun93MqwAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3'
+image: https://yujingblog.top/images/posts/covers/lx-music.jpg
 aiSummary: "这工具能一个顶好几个音乐App，免费无广告，配好音源就能搜全网歌。桌面和安卓都能用，值得一试。"
 ---
 # LX Music（洛雪音乐）：免费开源的全能音乐查找工具

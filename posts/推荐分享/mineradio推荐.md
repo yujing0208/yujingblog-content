@@ -8,7 +8,7 @@ tags: ["音乐", "开源", "推荐"]
 category: 推荐分享
 draft: false
 pinned: false
-image: https://yujingblog.top/images/posts/covers/mineradio.jpg
+image: https://img.yujingblog.top/file/1790442062512_mineradio.jpg
 aiSummary: "刷B站被这播放器的星空森林封面镇住了，装了一周回不去。免费开源还跨平台，视觉拉满，当动态壁纸用绝了。"
 ---
 # MineRadio：把听歌变成私人演唱会的免费开源音乐播放器

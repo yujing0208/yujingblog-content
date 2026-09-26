@@ -175,7 +175,7 @@ const friendsData: FriendItem[] = [
 	},
 	{
 		title: "Wuの小站",
-		imgurl: "https://www.jywu.asia/IMG_6566.webp",
+		imgurl: "https://www.jywu.asia/IMG_6439.JPG",
 		desc: "Wuの个人小站，记录生活",
 		siteurl: "https://www.jywu.asia",
 		tags: [

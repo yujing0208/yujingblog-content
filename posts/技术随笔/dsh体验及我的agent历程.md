@@ -11,7 +11,7 @@ author: 余京
 sourceLink: ""
 draft: false
 date: 2026-08-22
-image: 'https://yujingblog.top/images/posts/covers/dsh-agent-journey.jpg'
+image: https://img.yujingblog.top/file/1790441994118_dsh-agent-journey.jpg
 permalink: dsh&agent
 aiSummary: 从dsh到codex再到workbuddy，折腾一圈agent，发现还是网页版deepseek最靠谱，省钱省心不废话。
 ---

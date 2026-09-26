@@ -4,7 +4,7 @@ published: 2026-07-30
 updated: 2026-07-30
 pinned: true
 description: 没错，就是学校发的畅言智慧课堂平板，在此提供保姆级刷机教程，包教包会
-image: 'https://yujingblog.top/images/posts/covers/c8hpro-flash.jpg'
+image: https://img.yujingblog.top/file/1790442002055_c8hpro-flash.jpg
 tags: ["Android", "刷机", "教程"]
 category: 技术教程
 licenseName: Unlicensed
